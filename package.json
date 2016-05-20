@@ -1,0 +1,22 @@
+{
+  "name": "quest_room",
+  "version": "1.0.0",
+  "description": "quest room site",
+  "main": "gulpfile.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/evilless63/Quest_room.git"
+  },
+  "keywords": [
+    "quest"
+  ],
+  "author": "Vitaliy Emelianov",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/evilless63/Quest_room/issues"
+  },
+  "homepage": "https://github.com/evilless63/Quest_room#readme"
+}

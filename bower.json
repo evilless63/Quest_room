@@ -1,0 +1,25 @@
+{
+  "name": "Quest_room",
+  "description": "quest site",
+  "main": "index.html",
+  "authors": [
+    "Vitaliy Emelianov"
+  ],
+  "license": "GNU",
+  "keywords": [
+    "no"
+  ],
+  "homepage": "no",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "jquery": "^2.2.3",
+    "normalize-css": "normalize.css#^4.1.1",
+    "jquery-form-validator": "^2.3.18"
+  }
+}
