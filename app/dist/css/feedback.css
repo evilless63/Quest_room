@@ -1,0 +1,120 @@
+.page_feedback {
+  text-align: center;
+  margin-top: 30px; }
+  .page_feedback .page_feedback_header {
+    font-size: 26.67px;
+    font-family: tahoma;
+    color: #fff;
+    position: relative;
+    text-align: center;
+    font-weight: 300;
+    text-transform: uppercase;
+    width: 210px;
+    display: inline-block; }
+  .page_feedback .page_feedback_header:after {
+    content: url(../images/right_flag_bullet.png);
+    position: absolute;
+    width: 40px;
+    height: 39px;
+    right: 13px;
+    top: -3px; }
+  .page_feedback .page_feedback_header:before {
+    content: url(../images/left_flag_bullet.png);
+    position: absolute;
+    width: 40px;
+    height: 39px;
+    left: 13px;
+    top: -3px; }
+  .page_feedback div:nth-child(2) {
+    margin-top: 30px; }
+  .page_feedback .page_feedback_block {
+    background: -moz-linear-gradient(top, rgba(4, 19, 45, 0.53) 0%, rgba(19, 11, 30, 0.53) 100%);
+    background: -webkit-linear-gradient(top, rgba(4, 19, 45, 0.53) 0%, rgba(19, 11, 30, 0.53) 100%);
+    background: linear-gradient(to bottom, rgba(4, 19, 45, 0.53) 0%, rgba(19, 11, 30, 0.53) 100%);
+    font-family: MyriadProRegular;
+    font-size: 21.33px;
+    color: #fff;
+    border-radius: 15px;
+    text-align: center;
+    padding: 45px 0px;
+    margin: 40px 0px;
+    position: relative; }
+    .page_feedback .page_feedback_block .page_feedback_block_date {
+      position: absolute;
+      background: url("../images/feedback_page_date_background.png");
+      padding-right: 7px;
+      padding-left: 26px;
+      margin-right: -7px;
+      top: -20px;
+      right: 3px; }
+    .page_feedback .page_feedback_block span {
+      font-family: MyriadProRegular;
+      font-size: 24px;
+      position: absolute;
+      top: 10px;
+      left: 15px; }
+  .page_feedback .addReview {
+    display: block;
+    color: #a5a7a8;
+    font-family: MyriadProRegular;
+    font-size: 21.33px;
+    text-align: right;
+    text-decoration: none;
+    transition: 200ms; }
+  .page_feedback .addReview:hover {
+    color: #fff;
+    text-shadow: 0px 0px 10px white;
+    transition: 200ms; }
+  .page_feedback .mailUs {
+    margin-top: 30px; }
+    .page_feedback .mailUs .mailUsRow {
+      display: flex;
+      justify-content: center; }
+      .page_feedback .mailUs .mailUsRow input {
+        width: 440px;
+        margin: 0px 30px; }
+      .page_feedback .mailUs .mailUsRow textarea {
+        width: 920px;
+        margin: 0px; }
+      .page_feedback .mailUs .mailUsRow input, .page_feedback .mailUs .mailUsRow textarea {
+        display: block;
+        padding: 17px 0px 17px 15px;
+        border-left: 4px solid #a6a6a6;
+        border-bottom: 4px solid #a6a6a6;
+        border-top: none;
+        border-right: none;
+        background: -moz-linear-gradient(45deg, rgba(13, 4, 31, 0.23) 0%, rgba(202, 230, 251, 0.53) 100%);
+        background: -webkit-linear-gradient(45deg, rgba(113, 4, 31, 0.23) 0%, rgba(202, 230, 251, 0.53) 100%);
+        background: linear-gradient(45deg, rgba(13, 4, 31, 0.23) 0%, rgba(202, 230, 251, 0.53) 100%);
+        box-sizing: border-box;
+        font-family: MyriadProRegular;
+        font-size: 21.33px;
+        color: #babdca; }
+    .page_feedback .mailUs button {
+      font-family: MyriadProRegular;
+      font-size: 21.33px;
+      text-transform: uppercase;
+      color: #ebedee;
+      border: 2px solid #ebedee;
+      padding: 11px;
+      background-color: rgba(142, 125, 179, 0.4);
+      box-sizing: border-box;
+      margin-top: 20px;
+      cursor: pointer;
+      transition: 200ms; }
+    .page_feedback .mailUs button:hover {
+      -webkit-box-shadow: 0px 0px 20px 2px white;
+      -moz-box-shadow: 0px 0px 20px 2px white;
+      box-shadow: 0px 0px 20px 2px white;
+      transition: 200ms; }
+    .page_feedback .mailUs .mailUs_markText {
+      text-align: center;
+      font-family: MyriadProRegular;
+      font-size: 21.33px;
+      color: #b8b8bc;
+      display: block;
+      margin-top: 27px; }
+    .page_feedback .mailUs .page_mark_stars {
+      text-align: center;
+      display: block;
+      margin: 15px auto 25px auto; }

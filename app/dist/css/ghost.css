@@ -173,10 +173,12 @@
     font-family: MyriadProRegular;
     font-size: 21.33px;
     text-align: right;
-    text-decoration: none; }
+    text-decoration: none;
+    transition: 200ms; }
   .quest_feedback .addReview:hover {
     color: #fff;
-    text-shadow: 0px 0px 10px white; }
+    text-shadow: 0px 0px 10px white;
+    transition: 200ms; }
   .quest_feedback .mailUs {
     margin-top: 30px; }
     .quest_feedback .mailUs .mailUsRow {
