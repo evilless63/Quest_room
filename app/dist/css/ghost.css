@@ -77,3 +77,154 @@
       text-align: left;
       line-height: 1.4em;
       padding: 14px 0px; }
+
+.quest_statistics {
+  text-align: center;
+  margin-top: 90px; }
+  .quest_statistics .quest_statistics_header {
+    font-size: 26.67px;
+    font-family: tahoma;
+    color: #fff;
+    position: relative;
+    text-align: center;
+    font-weight: 300;
+    text-transform: uppercase;
+    width: 390px;
+    display: inline-block; }
+  .quest_statistics .quest_statistics_header:after {
+    content: url(../images/right_flag_bullet.png);
+    position: absolute;
+    width: 40px;
+    height: 39px;
+    right: 13px;
+    top: -3px; }
+  .quest_statistics .quest_statistics_header:before {
+    content: url(../images/left_flag_bullet.png);
+    position: absolute;
+    width: 40px;
+    height: 39px;
+    left: 13px;
+    top: -3px; }
+  .quest_statistics .quest_statistics_body {
+    width: 979px;
+    height: 606px;
+    background: url("../images/statistics_background.png");
+    margin-top: 28px; }
+    .quest_statistics .quest_statistics_body .quest_statistics_body_block {
+      display: flex;
+      justify-content: space-around;
+      font-family: tahoma;
+      font-size: 26.67px;
+      color: #fff;
+      background: url("../images/quest_statistics_body_block_background.png") no-repeat bottom center;
+      padding: 12px 0px 12px 0px; }
+  .quest_statistics div.quest_statistics_body div:nth-child(1) {
+    padding: 22px 0px 12px 0px; }
+
+.quest_feedback {
+  text-align: center;
+  margin-top: 50px; }
+  .quest_feedback .quest_feedback_header {
+    font-size: 26.67px;
+    font-family: tahoma;
+    color: #fff;
+    position: relative;
+    text-align: center;
+    font-weight: 300;
+    text-transform: uppercase;
+    width: 210px;
+    display: inline-block; }
+  .quest_feedback .quest_feedback_header:after {
+    content: url(../images/right_flag_bullet.png);
+    position: absolute;
+    width: 40px;
+    height: 39px;
+    right: 13px;
+    top: -3px; }
+  .quest_feedback .quest_feedback_header:before {
+    content: url(../images/left_flag_bullet.png);
+    position: absolute;
+    width: 40px;
+    height: 39px;
+    left: 13px;
+    top: -3px; }
+  .quest_feedback div:nth-child(2) {
+    margin-top: 30px; }
+  .quest_feedback .quest_feedback_block {
+    background: -moz-linear-gradient(top, rgba(8, 46, 45, 0.53) 0%, rgba(7, 6, 26, 0.53) 100%);
+    background: -webkit-linear-gradient(top, rgba(8, 46, 45, 0.53) 0%, rgba(7, 6, 26, 0.53) 100%);
+    background: linear-gradient(to bottom, rgba(8, 46, 45, 0.53) 0%, rgba(7, 6, 26, 0.53) 100%);
+    -webkit-box-shadow: 0px 0px 15px 5px rgba(255, 255, 190, 0.2);
+    -moz-box-shadow: 0px 0px 15px 5px rgba(255, 255, 190, 0.2);
+    box-shadow: 0px 0px 15px 5px rgba(255, 255, 190, 0.2);
+    font-family: MyriadProRegular;
+    font-size: 24px;
+    color: #fff;
+    border-radius: 10px;
+    text-align: left;
+    padding: 15px 45px;
+    margin: 40px 0px; }
+    .quest_feedback .quest_feedback_block span {
+      font-family: MyriadProBold;
+      font-size: 26.67px; }
+  .quest_feedback .addReview {
+    display: block;
+    color: #a5a7a8;
+    font-family: MyriadProRegular;
+    font-size: 21.33px;
+    text-align: right;
+    text-decoration: none; }
+  .quest_feedback .addReview:hover {
+    color: #fff;
+    text-shadow: 0px 0px 10px white; }
+  .quest_feedback .mailUs {
+    margin-top: 30px; }
+    .quest_feedback .mailUs .mailUsRow {
+      display: flex;
+      justify-content: center; }
+      .quest_feedback .mailUs .mailUsRow input {
+        width: 440px;
+        margin: 0px 30px; }
+      .quest_feedback .mailUs .mailUsRow textarea {
+        width: 920px;
+        margin: 0px; }
+      .quest_feedback .mailUs .mailUsRow input, .quest_feedback .mailUs .mailUsRow textarea {
+        display: block;
+        padding: 17px 0px 17px 15px;
+        border-left: 4px solid #a6a6a6;
+        border-bottom: 4px solid #a6a6a6;
+        border-top: none;
+        border-right: none;
+        background-color: rgba(142, 125, 179, 0.07);
+        box-sizing: border-box;
+        font-family: MyriadProRegular;
+        font-size: 21.33px;
+        color: #babdca; }
+    .quest_feedback .mailUs button {
+      font-family: MyriadProRegular;
+      font-size: 21.33px;
+      text-transform: uppercase;
+      color: #ebedee;
+      border: 2px solid #ebedee;
+      padding: 11px;
+      background-color: rgba(142, 125, 179, 0.4);
+      box-sizing: border-box;
+      margin-top: 12px;
+      cursor: pointer;
+      transition: 200ms; }
+    .quest_feedback .mailUs button:hover {
+      -webkit-box-shadow: 0px 0px 20px 2px white;
+      -moz-box-shadow: 0px 0px 20px 2px white;
+      box-shadow: 0px 0px 20px 2px white;
+      transition: 200ms; }
+    .quest_feedback .mailUs .mailUs_markText {
+      text-align: center;
+      font-family: MyriadProRegular;
+      font-size: 21.33px;
+      color: #b8b8bc;
+      display: block;
+      margin-top: 27px; }
+    .quest_feedback .mailUs .quest_mark_stars {
+      text-align: center;
+      display: block;
+      margin: 15px auto 25px auto; }
