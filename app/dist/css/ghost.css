@@ -1,0 +1,79 @@
+.ghost_description {
+  margin-top: 650px;
+  display: flex;
+  justify-content: space-between; }
+  .ghost_description .quest_sheme {
+    width: 187px;
+    height: 341px;
+    background: url("../images/ghost_sheme_background.png") no-repeat center; }
+    .ghost_description .quest_sheme .quest_sheme_rating.quest_sheme_point {
+      margin-top: 120px; }
+    .ghost_description .quest_sheme .quest_sheme_point {
+      font-family: MyriadProSemiBold;
+      font-size: 16.65px;
+      color: #fff;
+      margin: 20px 20px;
+      padding-left: 40px;
+      position: relative; }
+    .ghost_description .quest_sheme .quest_sheme_rating:before {
+      content: url("../images/quest_rating.png");
+      width: 26px;
+      height: 25px;
+      position: absolute;
+      left: 0px;
+      top: -2px; }
+    .ghost_description .quest_sheme .quest_sheme_players:before {
+      content: url("../images/quest_players.png");
+      width: 23px;
+      height: 30px;
+      position: absolute;
+      left: 1px;
+      top: -5px; }
+    .ghost_description .quest_sheme .quest_sheme_years:before {
+      content: url("../images/quest_years.png");
+      width: 28px;
+      height: 28px;
+      position: absolute;
+      left: -2px;
+      top: -2px; }
+    .ghost_description .quest_sheme .quest_sheme_level:before {
+      content: url("../images/quest_level.png");
+      width: 28px;
+      height: 28px;
+      position: absolute;
+      left: -2px;
+      top: -2px; }
+  .ghost_description .quest_description {
+    width: 780px;
+    text-align: center; }
+    .ghost_description .quest_description .quest_descriptionHeader {
+      font-size: 26.67px;
+      font-family: tahoma;
+      color: #fff;
+      position: relative;
+      text-align: center;
+      font-weight: 300;
+      text-transform: uppercase;
+      width: 320px;
+      display: inline-block; }
+    .ghost_description .quest_description .quest_descriptionHeader:after {
+      content: url(../images/right_flag_bullet.png);
+      position: absolute;
+      width: 40px;
+      height: 39px;
+      right: 13px;
+      top: -3px; }
+    .ghost_description .quest_description .quest_descriptionHeader:before {
+      content: url(../images/left_flag_bullet.png);
+      position: absolute;
+      width: 40px;
+      height: 39px;
+      left: 13px;
+      top: -3px; }
+    .ghost_description .quest_description .quest_description_paragraph {
+      font-family: MyriadProRegular;
+      font-size: 18.9px;
+      color: #fff;
+      text-align: left;
+      line-height: 1.4em;
+      padding: 14px 0px; }

@@ -1,0 +1,713 @@
+* {
+  margin: 0px;
+  padding: 0px; }
+
+body {
+  background: url(../images/background.jpg) no-repeat top center; }
+
+body.contactsPage {
+  background: url(../images/background_contactsPage.jpg) no-repeat top center;
+  background-color: #000; }
+
+body.actionsPage {
+  background: url(../images/background_actionsPage.jpg) no-repeat top center;
+  background-color: #000; }
+
+body.teamPage {
+  background: url(../images/background_teamPage.jpg) no-repeat top center;
+  background-color: #000; }
+
+body.ghost_quest {
+  background: url(../images/ghost_background.jpg) no-repeat top center;
+  background-color: #000; }
+
+.container {
+  width: 980px;
+  margin: 0 auto; }
+
+.mainMenu {
+  margin-top: 16px; }
+  .mainMenu ul {
+    display: flex;
+    justify-content: space-around;
+    margin: 0px 26px 0px 26px; }
+    .mainMenu ul li {
+      list-style-type: none; }
+      .mainMenu ul li a {
+        font-size: 21.33px;
+        color: #fff;
+        text-decoration: none;
+        font-family: MyriadProRegular;
+        transition: 200ms; }
+      .mainMenu ul li a:hover {
+        text-shadow: 0px 0px 10px white;
+        transition: 200ms; }
+
+.logoBlock, logoBlock_page {
+  margin-top: 92px; }
+  .logoBlock .logoText, logoBlock_page .logoText {
+    display: block;
+    color: #06bebc;
+    font-size: 48px;
+    font-family: lcchalk;
+    margin: 0px 26px 0px 26px; }
+    .logoBlock .logoText span, logoBlock_page .logoText span {
+      margin-left: 305px; }
+  .logoBlock .secondLogoText, logoBlock_page .secondLogoText {
+    margin-left: 115px;
+    margin-top: 15px; }
+    .logoBlock .secondLogoText .secondLogoSpan, logoBlock_page .secondLogoText .secondLogoSpan {
+      margin-left: 250px; }
+  .logoBlock .mainLogo, logoBlock_page .mainLogo {
+    margin: -215px 0px 0px 330px; }
+
+.logoBlock_page {
+  text-align: center; }
+  .logoBlock_page .logoText {
+    display: block;
+    font-family: MyriadProRegular;
+    font-size: 26.67px;
+    text-shadow: 0px 0px 10px white;
+    color: #fff;
+    margin: 60px 20px 0px 26px; }
+    .logoBlock_page .logoText span {
+      margin-left: 150px; }
+  .logoBlock_page .secondLogoText {
+    margin-left: 8px;
+    margin-top: 15px; }
+    .logoBlock_page .secondLogoText .secondLogoSpan {
+      margin-left: 155px; }
+  .logoBlock_page .mainLogo {
+    margin: -105px 0px 0px 0px; }
+
+.questChoise .row {
+  display: flex;
+  justify-content: space-between; }
+  .questChoise .row .questContainer {
+    width: 474px;
+    height: 274px;
+    position: relative;
+    cursor: pointer;
+    border-radius: 15px;
+    transition: 200ms; }
+    .questChoise .row .questContainer .questName,
+    .questChoise .row .questContainer .questPromo,
+    .questChoise .row .questContainer .questPlayers,
+    .questChoise .row .questContainer .questRating,
+    .questChoise .row .questContainer .questAge {
+      position: absolute;
+      color: #fff; }
+    .questChoise .row .questContainer .questName, .questChoise .row .questContainer .questPlayers {
+      font-family: MyriadProSemiBold;
+      font-size: 18.9px; }
+    .questChoise .row .questContainer .questPromo {
+      font-family: MyriadProRegular;
+      font-size: 18.9px; }
+    .questChoise .row .questContainer .questRating, .questChoise .row .questContainer .questAge {
+      font-family: MyriadProSemiBold;
+      font-size: 19.03px; }
+    .questChoise .row .questContainer .questName {
+      top: 25px;
+      left: 60px; }
+    .questChoise .row .questContainer .questPlayers {
+      bottom: 30px;
+      left: 45px; }
+    .questChoise .row .questContainer .questPromo {
+      text-align: center;
+      top: 115px;
+      left: 115px; }
+    .questChoise .row .questContainer .questRating {
+      right: 30px;
+      top: 21px; }
+    .questChoise .row .questContainer .questAge {
+      right: 28px;
+      top: 215px; }
+  .questChoise .row .questContainer:hover {
+    -webkit-box-shadow: 0px 0px 10px 0px white;
+    -moz-box-shadow: 0px 0px 10px 0px white;
+    box-shadow: 0px 0px 10px 0px white;
+    transition: 200ms; }
+  .questChoise .row .ghostHouse {
+    background: url(../images/ghost_quest.png) no-repeat center;
+    transition: 200ms; }
+  .questChoise .row .ghostHouse:hover {
+    background: url(../images/ghost_quest_active.png) no-repeat center;
+    transition: 200ms; }
+  .questChoise .row .room13 {
+    background: url(../images/room13_quest.png) no-repeat center;
+    transition: 200ms; }
+  .questChoise .row .room13:hover {
+    background: url(../images/room13_quest_active.png) no-repeat center;
+    transition: 200ms; }
+  .questChoise .row .saw {
+    background: url(../images/saw_quest.png) no-repeat center;
+    transition: 200ms; }
+  .questChoise .row .saw:hover {
+    background: url(../images/saw_quest_active.png) no-repeat center;
+    transition: 200ms; }
+  .questChoise .row .simpsons {
+    background: url(../images/simpsons_quest.png) no-repeat center;
+    transition: 200ms; }
+  .questChoise .row .simpsons:hover {
+    background: url(../images/simpsons_quest_active.png) no-repeat center;
+    transition: 200ms; }
+
+section.questChoise.container > div:nth-child(2) {
+  margin-top: 30px; }
+
+.actions {
+  text-align: center;
+  margin-top: 48px;
+  width: 1100px; }
+  .actions .actionsHeader {
+    font-size: 26.67px;
+    font-family: tahoma;
+    color: #fff;
+    position: relative;
+    text-align: center;
+    font-weight: 300;
+    text-transform: uppercase;
+    width: 200px;
+    display: inline-block; }
+  .actions .actionsHeader:before {
+    content: url(../images/left_flag_bullet.png);
+    position: absolute;
+    width: 40px;
+    height: 39px;
+    left: 13px;
+    top: -3px; }
+  .actions .actionsHeader:after {
+    content: url(../images/right_flag_bullet.png);
+    position: absolute;
+    width: 40px;
+    height: 39px;
+    right: 13px;
+    top: -3px; }
+  .actions .actionContainer {
+    width: 1080px;
+    height: 380px;
+    position: relative;
+    background: url(../images/actions_promo_background.png) no-repeat center; }
+    .actions .actionContainer .actionContainerHeader {
+      color: #000000;
+      -webkit-transform: rotate(353deg);
+      -moz-transform: rotate(353deg);
+      -ms-transform: rotate(353deg);
+      -o-transform: rotate(353deg);
+      transform: rotate(348deg);
+      font-family: MyriadProBold;
+      font-size: 27.04px;
+      position: absolute;
+      top: 87px;
+      left: 241px;
+      text-transform: uppercase; }
+    .actions .actionContainer .actionContainerPromo {
+      color: #fff;
+      font-size: 26.67px;
+      font-family: MyriadProBold;
+      position: absolute;
+      left: 480px;
+      top: 45px; }
+    .actions .actionContainer .actionContainerText, .actions .actionContainer .actionContainerSubText {
+      width: 640px;
+      display: block;
+      color: #fff;
+      font-family: MyriadProRegular;
+      font-size: 18.67px;
+      position: absolute;
+      text-align: justify;
+      left: 343px;
+      top: 160px; }
+    .actions .actionContainer .actionContainerComment {
+      font-family: MyriadProRegular;
+      font-size: 13.33px;
+      color: #c29394;
+      position: absolute;
+      bottom: 48px;
+      right: 125px; }
+    .actions .actionContainer .actionContainerButton {
+      background: url("../images/actions_promo_button.png") no-repeat center;
+      width: 57px;
+      height: 57px;
+      position: absolute;
+      right: 9px;
+      top: 47px; }
+  .actions .actionPagePar {
+    width: 980px;
+    margin: 0 auto;
+    margin-top: 15px;
+    font-family: MyriadProRegular;
+    font-size: 18.67px;
+    color: #fff;
+    text-align: justify; }
+
+.actionContainerSubText {
+  width: 980px;
+  margin: 0 auto;
+  position: relative;
+  display: block;
+  color: #fff;
+  font-family: MyriadProRegular;
+  font-size: 18.67px;
+  text-align: justify; }
+
+.reviews {
+  text-align: center;
+  margin-top: 48px; }
+  .reviews .reviewsHeader {
+    font-size: 26.67px;
+    font-family: tahoma;
+    color: #fff;
+    position: relative;
+    text-align: center;
+    font-weight: 300;
+    text-transform: uppercase;
+    width: 220px;
+    display: inline-block; }
+  .reviews .reviewsHeader:after {
+    content: url(../images/right_flag_bullet.png);
+    position: absolute;
+    width: 40px;
+    height: 39px;
+    right: 13px;
+    top: -3px; }
+  .reviews .reviewsHeader:before {
+    content: url(../images/left_flag_bullet.png);
+    position: absolute;
+    width: 40px;
+    height: 39px;
+    left: 13px;
+    top: -3px; }
+  .reviews .addReview {
+    display: block;
+    color: #a5a7a8;
+    font-family: MyriadProRegular;
+    font-size: 21.33px;
+    text-align: right;
+    text-decoration: none; }
+  .reviews .addReview:hover {
+    color: #fff;
+    text-shadow: 0px 0px 10px white; }
+  .reviews .reviewsContainer {
+    display: flex;
+    justify-content: space-around;
+    position: relative;
+    width: 920px;
+    margin: 0 auto; }
+    .reviews .reviewsContainer .leftArrow {
+      background: url(../images/feedback_left_arrow.png) no-repeat center;
+      position: absolute;
+      width: 44px;
+      height: 68px;
+      left: -32px;
+      top: 90px;
+      cursor: pointer;
+      transition: 200ms; }
+    .reviews .reviewsContainer .leftArrow:hover {
+      background: url(../images/feedback_left_arrow_active.png) no-repeat center;
+      transition: 200ms; }
+    .reviews .reviewsContainer .rightArrow {
+      background: url(../images/feedback_right_arrow.png) no-repeat center;
+      position: absolute;
+      width: 44px;
+      height: 68px;
+      right: -32px;
+      top: 90px;
+      cursor: pointer;
+      transition: 200ms; }
+    .reviews .reviewsContainer .rightArrow:hover {
+      background: url(../images/feedback_right_arrow_active.png) no-repeat center;
+      transition: 200ms; }
+    .reviews .reviewsContainer .reviewsBlock {
+      background: url(../images/feedback_background.png) no-repeat center;
+      width: 297px;
+      height: 234px;
+      margin: 15px 5px; }
+      .reviews .reviewsContainer .reviewsBlock .reviewsBlockHeader {
+        display: flex;
+        justify-content: space-between;
+        position: relative; }
+        .reviews .reviewsContainer .reviewsBlock .reviewsBlockHeader .reviewsHeaderName, .reviews .reviewsContainer .reviewsBlock .reviewsBlockHeader .reviewsHeaderDate {
+          font-size: 24px;
+          color: #fff;
+          font-family: MyriadProRegular;
+          margin: 10px; }
+        .reviews .reviewsContainer .reviewsBlock .reviewsBlockHeader .reviewsHeaderDate {
+          position: relative;
+          background: url(../images/feedback_date_background.png);
+          padding-right: 7px;
+          padding-left: 26px;
+          margin-right: -7px; }
+      .reviews .reviewsContainer .reviewsBlock .reviewsHeaderDivider {
+        background: url(../images/feedback_bottomBorder.png) no-repeat center;
+        width: 282px;
+        height: 35px;
+        margin: -25px auto; }
+      .reviews .reviewsContainer .reviewsBlock .reviewsBlockText {
+        text-align: center;
+        font-size: 21.33px;
+        color: #fff;
+        font-family: MyriadProRegular;
+        margin: 10px;
+        padding: 35px 15px 0px 15px; }
+
+.ourTeam_page {
+  height: 1200px !important; }
+
+.ourTeam {
+  text-align: center;
+  margin-top: 48px;
+  width: 100%;
+  height: 798px;
+  margin-bottom: -120px; }
+  .ourTeam .ourTeamHeader {
+    font-size: 26.67px;
+    font-family: tahoma;
+    color: #fff;
+    position: relative;
+    text-align: center;
+    font-weight: 300;
+    text-transform: uppercase;
+    width: 235px;
+    display: inline-block; }
+  .ourTeam .ourTeamHeader:after {
+    content: url(../images/right_flag_bullet.png);
+    position: absolute;
+    width: 40px;
+    height: 39px;
+    right: 13px;
+    top: -3px; }
+  .ourTeam .ourTeamHeader:before {
+    content: url(../images/left_flag_bullet.png);
+    position: absolute;
+    width: 40px;
+    height: 39px;
+    left: 13px;
+    top: -3px; }
+  .ourTeam .ourTeamContainer_page {
+    justify-content: center; }
+  .ourTeam .ourTeamContainer {
+    margin: 0 auto;
+    margin-top: 45px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 980px; }
+    .ourTeam .ourTeamContainer .ourTeamArrowLeft {
+      background: url(../images/team_left_arrow.png) no-repeat center;
+      width: 91px;
+      height: 123px;
+      cursor: pointer;
+      transition: 200ms; }
+    .ourTeam .ourTeamContainer .ourTeamArrowLeft:hover {
+      background: url(../images/team_left_arrow_active.png) no-repeat center;
+      transition: 200ms; }
+    .ourTeam .ourTeamContainer .ourTeamArrowRight {
+      background: url(../images/team_right_arrow.png) no-repeat center;
+      width: 91px;
+      height: 123px;
+      cursor: pointer;
+      transition: 200ms; }
+    .ourTeam .ourTeamContainer .ourTeamArrowRight:hover {
+      background: url(../images/team_right_arrow_active.png) no-repeat center;
+      transition: 200ms; }
+    .ourTeam .ourTeamContainer .ourTeamBlock_page {
+      margin: 0 auto; }
+    .ourTeam .ourTeamContainer .ourTeamBlock {
+      width: 750px;
+      height: 455px;
+      background-color: rgba(117, 117, 117, 0.4); }
+      .ourTeam .ourTeamContainer .ourTeamBlock .ourTeamBlockHeader {
+        font-family: MyriadProSemiBold;
+        font-size: 24px;
+        color: #fff;
+        background: url(../images/team_header_background.png) no-repeat -15px 0px;
+        padding: 5px 20px 40px 160px; }
+      .ourTeam .ourTeamContainer .ourTeamBlock .ourTeamBlockContent {
+        display: flex;
+        justify-content: space-between; }
+        .ourTeam .ourTeamContainer .ourTeamBlock .ourTeamBlockContent .teammatePhoto {
+          margin-top: -68px;
+          margin-left: -13px; }
+          .ourTeam .ourTeamContainer .ourTeamBlock .ourTeamBlockContent .teammatePhoto .teammatePhotoSocial {
+            position: relative;
+            display: flex;
+            justify-content: center;
+            margin-top: -90px; }
+            .ourTeam .ourTeamContainer .ourTeamBlock .ourTeamBlockContent .teammatePhoto .teammatePhotoSocial a.teammatePhotoSocialLink .teammatePhotoSocialVkIcon {
+              background: url(../images/team_vk_link.png) no-repeat center;
+              width: 40px;
+              height: 40px;
+              margin-right: 10px;
+              transition: 200ms; }
+            .ourTeam .ourTeamContainer .ourTeamBlock .ourTeamBlockContent .teammatePhoto .teammatePhotoSocial a.teammatePhotoSocialLink .teammatePhotoSocialVkIcon:hover {
+              transition: 200ms;
+              background: url(../images/team_vk_link_active.png) no-repeat center; }
+            .ourTeam .ourTeamContainer .ourTeamBlock .ourTeamBlockContent .teammatePhoto .teammatePhotoSocial a.teammatePhotoSocialLink .teammatePhotoSocialInstagrammIcon {
+              background: url(../images/team_inst_link.png) no-repeat center;
+              width: 40px;
+              height: 40px;
+              margin-right: 10px;
+              transition: 200ms; }
+            .ourTeam .ourTeamContainer .ourTeamBlock .ourTeamBlockContent .teammatePhoto .teammatePhotoSocial a.teammatePhotoSocialLink .teammatePhotoSocialInstagrammIcon:hover {
+              transition: 200ms;
+              background: url(../images/team_inst_link_active.png) no-repeat center; }
+        .ourTeam .ourTeamContainer .ourTeamBlock .ourTeamBlockContent .ourTeamBlockDescription {
+          text-align: left; }
+          .ourTeam .ourTeamContainer .ourTeamBlock .ourTeamBlockContent .ourTeamBlockDescription h2 {
+            color: #a0a0a9;
+            font-family: MyriadProSemiBold;
+            font-size: 24px;
+            margin-top: -20px;
+            margin-bottom: 20px; }
+          .ourTeam .ourTeamContainer .ourTeamBlock .ourTeamBlockContent .ourTeamBlockDescription p {
+            color: #fff;
+            font-family: MyriadProSemiBold;
+            font-size: 21.33px;
+            max-height: 295px;
+            overflow: auto;
+            margin-right: 20px; }
+
+.contacts, .contacts_page {
+  text-align: center;
+  margin-top: 48px; }
+  .contacts .contactsHeader, .contacts_page .contactsHeader {
+    font-size: 26.67px;
+    font-family: tahoma;
+    color: #fff;
+    position: relative;
+    text-align: center;
+    font-weight: 300;
+    text-transform: uppercase;
+    width: 250px;
+    display: inline-block; }
+  .contacts .contactsHeader:after, .contacts_page .contactsHeader:after {
+    content: url(../images/right_flag_bullet.png);
+    position: absolute;
+    width: 40px;
+    height: 39px;
+    right: 13px;
+    top: -3px; }
+  .contacts .contactsHeader:before, .contacts_page .contactsHeader:before {
+    content: url(../images/left_flag_bullet.png);
+    position: absolute;
+    width: 40px;
+    height: 39px;
+    left: 13px;
+    top: -3px; }
+  .contacts .contactsSubHeader, .contacts_page .contactsSubHeader {
+    font-family: MyriadProRegular;
+    font-size: 24px;
+    color: #fff;
+    margin-top: 15px; }
+    .contacts .contactsSubHeader .span, .contacts_page .contactsSubHeader .span {
+      padding: 5px; }
+  .contacts .contactsContent, .contacts_page .contactsContent {
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-between; }
+    .contacts .contactsContent .callUs, .contacts_page .contactsContent .callUs {
+      color: #fff;
+      text-align: left; }
+      .contacts .contactsContent .callUs span, .contacts .contactsContent .callUs .callUsPhone, .contacts .contactsContent .callUs .callUsViber, .contacts_page .contactsContent .callUs span, .contacts_page .contactsContent .callUs .callUsPhone, .contacts_page .contactsContent .callUs .callUsViber {
+        font-family: MyriadProRegular;
+        font-size: 24px; }
+      .contacts .contactsContent .callUs .callUsPhone, .contacts_page .contactsContent .callUs .callUsPhone {
+        position: relative;
+        padding: 22px 0px 22px 60px; }
+        .contacts .contactsContent .callUs .callUsPhone span, .contacts_page .contactsContent .callUs .callUsPhone span {
+          font-family: MyriadProBold;
+          font-size: 26.67px;
+          padding-left: 50px; }
+      .contacts .contactsContent .callUs .callUsPhone:before, .contacts_page .contactsContent .callUs .callUsPhone:before {
+        content: url("../images/contacts_phone.png");
+        width: 52px;
+        height: 52px;
+        position: absolute;
+        left: 0px;
+        top: 15px; }
+      .contacts .contactsContent .callUs .callUsViber, .contacts_page .contactsContent .callUs .callUsViber {
+        position: relative;
+        padding: 12px 0px 22px 60px; }
+        .contacts .contactsContent .callUs .callUsViber span, .contacts_page .contactsContent .callUs .callUsViber span {
+          font-family: MyriadProBold;
+          font-size: 26.67px;
+          padding-left: 63px; }
+      .contacts .contactsContent .callUs .callUsViber:before, .contacts_page .contactsContent .callUs .callUsViber:before {
+        content: url("../images/contacts_viber.png");
+        width: 51px;
+        height: 57px;
+        position: absolute;
+        left: 0px;
+        top: 5px; }
+    .contacts .contactsContent .mailUs, .contacts_page .contactsContent .mailUs {
+      margin-top: -7px; }
+      .contacts .contactsContent .mailUs input, .contacts .contactsContent .mailUs textarea, .contacts_page .contactsContent .mailUs input, .contacts_page .contactsContent .mailUs textarea {
+        display: block;
+        padding: 17px 0px 17px 15px;
+        border-left: 3px solid #fff;
+        border-bottom: 3px solid #fff;
+        border-top: none;
+        border-right: none;
+        background-color: rgba(142, 125, 179, 0.4);
+        box-sizing: border-box;
+        width: 490px;
+        font-family: MyriadProRegular;
+        font-size: 21.33px;
+        color: #babdca;
+        margin: 15px 0px; }
+      .contacts .contactsContent .mailUs button, .contacts_page .contactsContent .mailUs button {
+        font-family: MyriadProRegular;
+        font-size: 21.33px;
+        text-transform: uppercase;
+        color: #ebedee;
+        border: 2px solid #ebedee;
+        padding: 11px;
+        background-color: rgba(142, 125, 179, 0.4);
+        box-sizing: border-box;
+        margin-top: 12px;
+        cursor: pointer;
+        transition: 200ms; }
+      .contacts .contactsContent .mailUs button:hover, .contacts_page .contactsContent .mailUs button:hover {
+        -webkit-box-shadow: 0px 0px 20px 2px white;
+        -moz-box-shadow: 0px 0px 20px 2px white;
+        box-shadow: 0px 0px 20px 2px white;
+        transition: 200ms; }
+
+.contacts_page {
+  margin-top: 30px; }
+
+.map .mapHeader {
+  font-family: MyriadProSemiBold;
+  font-size: 26.67px;
+  color: #fff;
+  position: relative;
+  padding: 20px 30px 50px 55px;
+  margin-left: -54px;
+  background: url("../images/map_header_background.png") no-repeat 0px 0px; }
+
+.map .mapHeader:before {
+  position: absolute;
+  content: url("../images/map_gps_heading_bullet.png");
+  width: 24px;
+  height: 31px;
+  left: 18px; }
+
+.map .mapDisplay {
+  background: url("../images/mapContent.jpg") no-repeat center;
+  width: 980px;
+  height: 526px;
+  margin-top: -39px; }
+
+footer {
+  color: #fff;
+  margin-top: 80px;
+  padding-bottom: 50px;
+  padding-top: 20px;
+  background: url("../images/footer_background.jpg") no-repeat top center; }
+  footer .wrapper {
+    margin-top: 14px;
+    display: flex;
+    justify-content: space-between;
+    width: 980px;
+    margin: 0 auto; }
+    footer .wrapper .aboutUs {
+      width: 310px; }
+      footer .wrapper .aboutUs .aboutUsHeader {
+        font-family: MyriadProBold;
+        font-size: 18.67px;
+        text-align: left;
+        margin-bottom: 12px; }
+      footer .wrapper .aboutUs p {
+        font-family: arial;
+        font-size: 13.33px;
+        text-align: justify; }
+    footer .wrapper .questLinkFooter {
+      display: block;
+      text-align: center;
+      font-family: MyriadProSemiBold;
+      font-size: 18.67px;
+      color: #fff;
+      margin-bottom: 20px;
+      position: relative; }
+    footer .wrapper .questLinkFooter_simpsons:after {
+      content: url("../images/simpsonsFooter.png");
+      width: 19px;
+      height: 24px;
+      position: absolute;
+      right: -5px;
+      top: -4px; }
+    footer .wrapper .questLinkFooter_saw:after {
+      content: url("../images/sawFooter.png");
+      width: 19px;
+      height: 24px;
+      position: absolute;
+      right: 18px;
+      top: -2px; }
+    footer .wrapper .questLinkFooter_ghost:after {
+      content: url("../images/ghostFooter.png");
+      width: 19px;
+      height: 24px;
+      position: absolute;
+      right: -25px;
+      top: -3px; }
+    footer .wrapper .questLinkFooter_13:after {
+      content: url("../images/13Footer.png");
+      width: 19px;
+      height: 24px;
+      position: absolute;
+      right: -18px;
+      top: -3px; }
+    footer .wrapper .footerContacts .teammatePhotoSocial {
+      position: relative;
+      display: flex;
+      justify-content: flex-end;
+      margin: 15px 0px; }
+      footer .wrapper .footerContacts .teammatePhotoSocial a.teammatePhotoSocialLink .teammatePhotoSocialVkIcon {
+        background: url(../images/team_vk_link.png) no-repeat center;
+        width: 40px;
+        height: 40px;
+        margin-right: 10px;
+        transition: 200ms; }
+      footer .wrapper .footerContacts .teammatePhotoSocial a.teammatePhotoSocialLink .teammatePhotoSocialVkIcon:hover {
+        transition: 200ms;
+        background: url(../images/team_vk_link_active.png) no-repeat center; }
+      footer .wrapper .footerContacts .teammatePhotoSocial a.teammatePhotoSocialLink .teammatePhotoSocialInstagrammIcon {
+        background: url(../images/team_inst_link.png) no-repeat center;
+        width: 40px;
+        height: 40px;
+        margin-right: 10px;
+        transition: 200ms; }
+      footer .wrapper .footerContacts .teammatePhotoSocial a.teammatePhotoSocialLink .teammatePhotoSocialInstagrammIcon:hover {
+        transition: 200ms;
+        background: url(../images/team_inst_link_active.png) no-repeat center; }
+    footer .wrapper .footerContacts .footerContactsBlock {
+      color: #fff;
+      font-family: MyriadProSemiBold;
+      font-size: 18.67px;
+      text-align: right;
+      display: block;
+      position: relative;
+      margin-bottom: 8px; }
+    footer .wrapper .footerContacts .footerContactsPhone span {
+      padding-left: 10px; }
+    footer .wrapper .footerContacts .footerContactsViber span {
+      padding-left: 19px; }
+    footer .wrapper .footerContacts .footerContactsAdress:before {
+      content: url("../images/gpsFooter.png");
+      width: 14px;
+      height: 19px;
+      position: absolute;
+      left: -5px; }
+    footer .wrapper .footerContacts .footerContactsPhone:before {
+      content: url("../images/phoneFooter.png");
+      width: 14px;
+      height: 19px;
+      position: absolute;
+      left: -25px; }
+    footer .wrapper .footerContacts .footerContactsViber:before {
+      content: url("../images/viberFooter.png");
+      width: 14px;
+      height: 19px;
+      position: absolute;
+      left: -25px; }

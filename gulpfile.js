@@ -24,7 +24,7 @@ gulp.task('sass', function(){
 gulp.task('browserSync', function(){
 	browserSync({
 		server: {
-			baseDir: 'app'
+			baseDir: 'app/'
 		},
 	})
 });
