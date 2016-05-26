@@ -2,6 +2,9 @@
   margin: 0px;
   padding: 0px; }
 
+html {
+  zoom: 85%; }
+
 body {
   background: url(../images/background.jpg) no-repeat top center; }
 
@@ -23,7 +26,8 @@ body.feedbackPage {
 
 body.ghost_quest {
   background: url(../images/ghost_background.jpg) no-repeat top center;
-  background-color: #000; }
+  background-color: #000;
+  zoom: 80%; }
 
 .container {
   width: 980px;
@@ -54,16 +58,16 @@ body.ghost_quest {
     color: #06bebc;
     font-size: 48px;
     font-family: lcchalk;
-    margin: 0px 26px 0px 26px; }
+    margin: 0px 15px 0px 26px; }
     .logoBlock .logoText span, logoBlock_page .logoText span {
-      margin-left: 305px; }
+      margin-left: 320px; }
   .logoBlock .secondLogoText, logoBlock_page .secondLogoText {
     margin-left: 115px;
     margin-top: 15px; }
     .logoBlock .secondLogoText .secondLogoSpan, logoBlock_page .secondLogoText .secondLogoSpan {
-      margin-left: 250px; }
+      margin-left: 270px; }
   .logoBlock .mainLogo, logoBlock_page .mainLogo {
-    margin: -215px 0px 0px 330px; }
+    margin: -215px 0px 0px 339px; }
 
 .logoBlock_page {
   text-align: center; }
@@ -106,10 +110,11 @@ body.ghost_quest {
       font-size: 18.9px; }
     .questChoise .row .questContainer .questPromo {
       font-family: MyriadProRegular;
-      font-size: 18.9px; }
+      font-size: 18.9px;
+      display: none; }
     .questChoise .row .questContainer .questRating, .questChoise .row .questContainer .questAge {
       font-family: MyriadProSemiBold;
-      font-size: 19.03px; }
+      font-size: 19px; }
     .questChoise .row .questContainer .questName {
       top: 25px;
       left: 60px; }
@@ -125,7 +130,7 @@ body.ghost_quest {
       top: 21px; }
     .questChoise .row .questContainer .questAge {
       right: 28px;
-      top: 215px; }
+      top: 218px; }
   .questChoise .row .questContainer:hover {
     -webkit-box-shadow: 0px 0px 10px 0px white;
     -moz-box-shadow: 0px 0px 10px 0px white;
@@ -298,7 +303,7 @@ section.questChoise.container > div:nth-child(2) {
     display: flex;
     justify-content: space-around;
     position: relative;
-    width: 920px;
+    width: 930px;
     margin: 0 auto; }
     .reviews .reviewsContainer .leftArrow {
       background: url(../images/feedback_left_arrow.png) no-repeat center;
@@ -608,8 +613,8 @@ section.questChoise.container > div:nth-child(2) {
 footer {
   color: #fff;
   margin-top: 80px;
-  padding-bottom: 50px;
-  padding-top: 20px;
+  padding-bottom: 40px;
+  padding-top: 13px;
   background: url("../images/footer_background.jpg") no-repeat top center; }
   footer .wrapper {
     margin-top: 14px;
@@ -664,16 +669,19 @@ footer {
       position: absolute;
       right: -18px;
       top: -3px; }
+    footer .wrapper .questLinks {
+      margin-left: -100px;
+      margin-top: 15px; }
     footer .wrapper .footerContacts .teammatePhotoSocial {
       position: relative;
       display: flex;
       justify-content: flex-end;
-      margin: 15px 0px; }
+      margin: 0px -13px 20px 0px; }
       footer .wrapper .footerContacts .teammatePhotoSocial a.teammatePhotoSocialLink .teammatePhotoSocialVkIcon {
         background: url(../images/team_vk_link.png) no-repeat center;
         width: 40px;
         height: 40px;
-        margin-right: 10px;
+        margin-right: 5px;
         transition: 200ms; }
       footer .wrapper .footerContacts .teammatePhotoSocial a.teammatePhotoSocialLink .teammatePhotoSocialVkIcon:hover {
         transition: 200ms;
@@ -717,3 +725,6 @@ footer {
       height: 19px;
       position: absolute;
       left: -25px; }
+
+body > section.ourTeam.ourTeam_page.container > div:nth-child(3) > div > div.ourTeamBlockHeader {
+  padding: 5px 20px 40px 130px; }
