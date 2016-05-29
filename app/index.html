@@ -160,11 +160,11 @@
 					<div class="callUsPhone">Phone<span>+7 (917) 047 76 65</span></div>
 					<div class="callUsViber">Viber<span>+7 (917) 047 76 65</span></div>
 				</div>
-				<form action="?" class="mailUs" id="mailUs">
+				<form action enctype="multipart/form-data" class="mailUs" id="mailUs" method="post">
 					<input type="text" id="mailUsName" name="mailUsName" 	 class="mailUsName" placeholder="Имя..." required>
 					<input type="text" id="mailUsEmail" name="mailUsEmail" 	 class="mailUsEmail" placeholder="Email..." required>
 					<textarea name="mailUsText" class="mailUsText" id="mailUsText" cols="30" rows="2" placeholder="Комментарий" required></textarea>
-					<button class="mailUsSubmit" id="mailUsSubmit">Отправить</button>
+					<button class="mailUsSubmit" type="submit" id="mailUsSubmit">Отправить</button>
 			</div>
 		</section>
 		<section class="map container">

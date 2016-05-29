@@ -229,4 +229,5 @@
     .quest_feedback .mailUs .quest_mark_stars {
       text-align: center;
       display: block;
-      margin: 15px auto 25px auto; }
+      margin: 15px auto 25px auto;
+      height: 100px; }
