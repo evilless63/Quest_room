@@ -10,27 +10,15 @@ $(document).ready(function(){
 	});
 
 
-	var form = document.forms.mailUs;
-
-			var formData = new FormData(form);  
-
-			var xhr = new XMLHttpRequest();
-			xhr.open("POST", "mail_questions.php");
-
-			xhr.onreadystatechange = function() {
-				if (xhr.readyState == 4) {
-					if(xhr.status == 200) {
-						data = xhr.responseText;
-						if(data == "true") {
-							alert("Ваше сообщение успешно отправлено !");
-						} else {
-							alert("При отправки сообщения возникли проблемы !")
-						}
-					}
-				}
-			};
-			
-			xhr.send(formData);
-
+	function AjaxFormRequest(result_id,form_id,url) {
+                jQuery.ajax({
+                    url:     url, //Адрес подгружаемой страницы
+                    type:     "POST", //Тип запроса
+                    dataType: "html", //Тип данных
+                    data: jQuery("#"+form_id).serialize(), 
+                    success: alert("Данные успешно отправлены"),
+                error: alert("При отправки формы возникли проблемы")
+             });
+        }
 
 });

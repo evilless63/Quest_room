@@ -51,7 +51,7 @@ body.ghost_quest {
         transition: 200ms; }
 
 .logoBlock, logoBlock_page {
-  margin-top: 92px; }
+  margin-top: 70px; }
   .logoBlock .logoText, logoBlock_page .logoText {
     display: block;
     color: #06bebc;
@@ -87,85 +87,87 @@ body.ghost_quest {
   .logoBlock_page .mainLogo {
     margin: -105px 0px 0px 0px; }
 
-.questChoise .row {
-  display: flex;
-  justify-content: space-between; }
-  .questChoise .row .questContainer {
-    width: 474px;
-    height: 274px;
-    position: relative;
-    cursor: pointer;
-    border-radius: 15px;
-    transition: 200ms; }
-    .questChoise .row .questContainer .questName,
-    .questChoise .row .questContainer .questPromo,
-    .questChoise .row .questContainer .questPlayers,
-    .questChoise .row .questContainer .questRating,
-    .questChoise .row .questContainer .questAge {
-      position: absolute;
-      color: #fff; }
-    .questChoise .row .questContainer .questName, .questChoise .row .questContainer .questPlayers {
-      font-family: MyriadProSemiBold;
-      font-size: 18.9px; }
-    .questChoise .row .questContainer .questPromo {
-      font-family: MyriadProRegular;
-      font-size: 18.9px;
-      display: none; }
-    .questChoise .row .questContainer .questRating, .questChoise .row .questContainer .questAge {
-      font-family: MyriadProSemiBold;
-      font-size: 19px; }
-    .questChoise .row .questContainer .questName {
-      top: 25px;
-      left: 60px; }
-    .questChoise .row .questContainer .questPlayers {
-      bottom: 30px;
-      left: 45px; }
-    .questChoise .row .questContainer .questPromo {
-      text-align: center;
-      top: 115px;
-      left: 115px; }
-    .questChoise .row .questContainer .questRating {
-      right: 30px;
-      top: 21px; }
-    .questChoise .row .questContainer .questAge {
-      right: 28px;
-      top: 218px; }
-  .questChoise .row .questContainer:hover {
-    -webkit-box-shadow: 0px 0px 10px 0px white;
-    -moz-box-shadow: 0px 0px 10px 0px white;
-    box-shadow: 0px 0px 10px 0px white;
-    transition: 200ms; }
-  .questChoise .row .ghostHouse {
-    background: url(../images/ghost_quest.png) no-repeat center;
-    transition: 200ms; }
-  .questChoise .row .ghostHouse:hover {
-    background: url(../images/ghost_quest_active.png) no-repeat center;
-    transition: 200ms; }
-  .questChoise .row .room13 {
-    background: url(../images/room13_quest.png) no-repeat center;
-    transition: 200ms; }
-  .questChoise .row .room13:hover {
-    background: url(../images/room13_quest_active.png) no-repeat center;
-    transition: 200ms; }
-  .questChoise .row .saw {
-    background: url(../images/saw_quest.png) no-repeat center;
-    transition: 200ms; }
-  .questChoise .row .saw:hover {
-    background: url(../images/saw_quest_active.png) no-repeat center;
-    transition: 200ms; }
-  .questChoise .row .simpsons {
-    background: url(../images/simpsons_quest.png) no-repeat center;
-    transition: 200ms; }
-  .questChoise .row .simpsons:hover {
-    background: url(../images/simpsons_quest_active.png) no-repeat center;
-    transition: 200ms; }
+.questChoise {
+  margin: 6px auto 0px; }
+  .questChoise .row {
+    display: flex;
+    justify-content: space-between; }
+    .questChoise .row .questContainer {
+      width: 474px;
+      height: 274px;
+      position: relative;
+      cursor: pointer;
+      border-radius: 15px;
+      transition: 200ms; }
+      .questChoise .row .questContainer .questName,
+      .questChoise .row .questContainer .questPromo,
+      .questChoise .row .questContainer .questPlayers,
+      .questChoise .row .questContainer .questRating,
+      .questChoise .row .questContainer .questAge {
+        position: absolute;
+        color: #fff; }
+      .questChoise .row .questContainer .questName, .questChoise .row .questContainer .questPlayers {
+        font-family: MyriadProSemiBold;
+        font-size: 18.9px; }
+      .questChoise .row .questContainer .questPromo {
+        font-family: MyriadProRegular;
+        font-size: 18.9px;
+        display: none; }
+      .questChoise .row .questContainer .questRating, .questChoise .row .questContainer .questAge {
+        font-family: MyriadProSemiBold;
+        font-size: 19px; }
+      .questChoise .row .questContainer .questName {
+        top: 25px;
+        left: 60px; }
+      .questChoise .row .questContainer .questPlayers {
+        bottom: 30px;
+        left: 45px; }
+      .questChoise .row .questContainer .questPromo {
+        text-align: center;
+        top: 115px;
+        left: 115px; }
+      .questChoise .row .questContainer .questRating {
+        right: 30px;
+        top: 21px; }
+      .questChoise .row .questContainer .questAge {
+        right: 28px;
+        top: 218px; }
+    .questChoise .row .questContainer:hover {
+      -webkit-box-shadow: 0px 0px 10px 0px white;
+      -moz-box-shadow: 0px 0px 10px 0px white;
+      box-shadow: 0px 0px 10px 0px white;
+      transition: 200ms; }
+    .questChoise .row .ghostHouse {
+      background: url(../images/ghost_quest.png) no-repeat center;
+      transition: 200ms; }
+    .questChoise .row .ghostHouse:hover {
+      background: url(../images/ghost_quest_active.png) no-repeat center;
+      transition: 200ms; }
+    .questChoise .row .room13 {
+      background: url(../images/room13_quest.png) no-repeat center;
+      transition: 200ms; }
+    .questChoise .row .room13:hover {
+      background: url(../images/room13_quest_active.png) no-repeat center;
+      transition: 200ms; }
+    .questChoise .row .saw {
+      background: url(../images/saw_quest.png) no-repeat center;
+      transition: 200ms; }
+    .questChoise .row .saw:hover {
+      background: url(../images/saw_quest_active.png) no-repeat center;
+      transition: 200ms; }
+    .questChoise .row .simpsons {
+      background: url(../images/simpsons_quest.png) no-repeat center;
+      transition: 200ms; }
+    .questChoise .row .simpsons:hover {
+      background: url(../images/simpsons_quest_active.png) no-repeat center;
+      transition: 200ms; }
 
 section.questChoise.container > div:nth-child(2) {
   margin-top: 30px; }
 
 .actions {
   text-align: center;
-  margin-top: 48px;
+  margin-top: 20px;
   width: 1100px; }
   .actions .actionsHeader {
     font-size: 26.67px;
@@ -208,7 +210,8 @@ section.questChoise.container > div:nth-child(2) {
       position: absolute;
       top: 87px;
       left: 241px;
-      text-transform: uppercase; }
+      text-transform: uppercase;
+      margin-top: -17px; }
     .actions .actionContainer .actionContainerPromo {
       color: #fff;
       font-size: 26.67px;
@@ -261,7 +264,7 @@ section.questChoise.container > div:nth-child(2) {
 
 .reviews {
   text-align: center;
-  margin-top: 48px; }
+  margin-top: 15px; }
   .reviews .reviewsHeader {
     font-size: 26.67px;
     font-family: tahoma;
@@ -271,7 +274,8 @@ section.questChoise.container > div:nth-child(2) {
     font-weight: 300;
     text-transform: uppercase;
     width: 220px;
-    display: inline-block; }
+    display: inline-block;
+    margin-bottom: 0px; }
   .reviews .reviewsHeader:after {
     content: url(../images/right_flag_bullet.png);
     position: absolute;
@@ -293,7 +297,8 @@ section.questChoise.container > div:nth-child(2) {
     font-size: 21.33px;
     text-align: right;
     text-decoration: none;
-    transition: 200ms; }
+    transition: 200ms;
+    margin-right: 30px; }
   .reviews .addReview:hover {
     color: #fff;
     text-shadow: 0px 0px 10px white;
@@ -398,7 +403,7 @@ section.questChoise.container > div:nth-child(2) {
     justify-content: center; }
   .ourTeam .ourTeamContainer {
     margin: 0 auto;
-    margin-top: 45px;
+    margin-top: 22px;
     display: flex;
     justify-content: space-between;
     align-items: center;
