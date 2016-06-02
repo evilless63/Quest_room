@@ -10,6 +10,7 @@ $(document).ready(function(){
 	});
 
 	$("#mailUs").submit(function(){
+		event.preventDefault();
 		var form_data = $(this).serialize();
 		$.ajax({
 			type: "POST",
@@ -22,6 +23,7 @@ $(document).ready(function(){
 	});
 
 	$("#mailUsFeedback").submit(function(){
+		event.preventDefault();
 		var form_data = $(this).serialize();
 		$.ajax({
 			type: "POST",
