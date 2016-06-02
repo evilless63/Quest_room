@@ -9,16 +9,30 @@ $(document).ready(function(){
 		$(this).children('.questPromo').css("display", "none");
 	});
 
+	$("#mailUs").submit(function(){
+		var form_data = $(this).serialize();
+		$.ajax({
+			type: "POST",
+			url: "mail_questions.php",
+			data: form_data,
+			success: function(){
+				alert("Сообщение успешно отправлено");
+			}
+		});
+	});
 
-	function AjaxFormRequest(result_id,form_id,url) {
-                jQuery.ajax({
-                    url:     url, //Адрес подгружаемой страницы
-                    type:     "POST", //Тип запроса
-                    dataType: "html", //Тип данных
-                    data: jQuery("#"+form_id).serialize(), 
-                    success: alert("Данные успешно отправлены"),
-                error: alert("При отправки формы возникли проблемы")
-             });
-        }
+	$("#mailUsFeedback").submit(function(){
+		var form_data = $(this).serialize();
+		$.ajax({
+			type: "POST",
+			url: "mail_questions.php",
+			data: form_data,
+			success: function(){
+				alert("Сообщение успешно отправлено");
+			}
+		});
+	});
 
 });
+
+      	 
