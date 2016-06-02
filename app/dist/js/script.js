@@ -10,7 +10,7 @@ $(document).ready(function(){
 	});
 
 	$("#mailUs").submit(function(){
-		event.preventDefault();
+	    event.preventDefault();
 		var form_data = $(this).serialize();
 		$.ajax({
 			type: "POST",
@@ -23,11 +23,11 @@ $(document).ready(function(){
 	});
 
 	$("#mailUsFeedback").submit(function(){
-		event.preventDefault();
+	    event.preventDefault();
 		var form_data = $(this).serialize();
 		$.ajax({
 			type: "POST",
-			url: "mail_questions.php",
+			url: "mail_feedback_quest.php",
 			data: form_data,
 			success: function(){
 				alert("Сообщение успешно отправлено");
