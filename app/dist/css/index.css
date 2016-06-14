@@ -1,4 +1,10 @@
 @charset "UTF-8";
+* {
+  transition: 200ms; }
+
+*:hover {
+  transition: 200ms; }
+
 body {
   width: 100%;
   height: 100%;
@@ -24,8 +30,8 @@ body.feedbackPage {
   background: url(../images/background_feedbackPage.jpg) no-repeat top center;
   background-color: #000; }
 
-body.ghost_quest {
-  background: url(../images/ghost_background.jpg) no-repeat top center;
+body.simpsons_quest {
+  background: url(../images/simpsons_background.jpg) no-repeat top center;
   background-color: #000; }
 
 .container {

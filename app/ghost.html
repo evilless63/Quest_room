@@ -8,7 +8,7 @@
 	<link rel="stylesheet" href="dist/css/index.css">
 	<link rel="stylesheet" href="dist/css/ghost.css">
 </head>
-<body class="ghost_quest">
+<body class="simpsons_quest">
 	<section class="mainMenu container">
 		<ul>
 			<img src="dist/images/star_bullet.png" alt="">
@@ -29,7 +29,7 @@
 		<span class="logoText secondLogoText">в Самаре<span class="secondLogoSpan">рядом</span></span>
 		<img src="dist/images/logo_page.png" alt="" class="mainLogo">
 	</section>
-	<section class="ghost_description container">
+	<section class="quest_description_wrapper quest_simpsons container">
 		<div class="quest_sheme">
 			<div class="quest_sheme_rating quest_sheme_point">Рейтинг: 9,8</div>
 			<div class="quest_sheme_players quest_sheme_point">2-4 игроков</div>
@@ -44,107 +44,758 @@
 </p>
 		</div>
 	</section>
-	<section class="quest_statistics container">
-		<div class="quest_statistics_header">Топ лучших команд</div>
-		<div class="quest_statistics_body">
-			<div class="quest_statistics_body_block">
-				<span>Жуки</span>
-				<span>2 игрока</span>
-				<span>12 минут</span>
-				<span>1 место</span>
+	<div class="info_wrapper">
+		<section class="schedule_wpapper container">
+			<div class="schedule_wpapper_header">
+				Расписание
 			</div>
-			<div class="quest_statistics_body_block">
-				<span>Жуки</span>
-				<span>2 игрока</span>
-				<span>12 минут</span>
-				<span>1 место</span>
+			<div class="schedule_wpapper_desc">
+				Забронируйте любое удобное для Вас время
 			</div>
-			<div class="quest_statistics_body_block">
-				<span>Жуки</span>
-				<span>2 игрока</span>
-				<span>12 минут</span>
-				<span>1 место</span>
+			<div class="schedule_wpapper_table">
+				<div class="schedule_wpapper_thead">
+					<div class="schedule_wpapper_thead_block">
+						Понедельник
+					</div>
+					<div class="schedule_wpapper_thead_block">
+						Вторник
+					</div>
+					<div class="schedule_wpapper_thead_block">
+						Среда
+					</div>
+					<div class="schedule_wpapper_thead_block">
+						Четверг
+					</div>
+					<div class="schedule_wpapper_thead_block">
+						Пятница
+					</div>
+					<div class="schedule_wpapper_thead_block">
+						Суббота
+					</div>
+					<div class="schedule_wpapper_thead_block">
+						Воскресенье
+					</div>
+				</div>
+				<div class="schedule_wpapper_date">
+					<div class="schedule_wpapper_date_block" id="schedule_date">01.06.16</div>
+					<div class="schedule_wpapper_date_block" id="schedule_date" >01.06.16</div>
+					<div class="schedule_wpapper_date_block" id="schedule_date" >01.06.16</div>
+					<div class="schedule_wpapper_date_block" id="schedule_date" >01.06.16</div>
+					<div class="schedule_wpapper_date_block" id="schedule_date" >01.06.16</div>
+					<div class="schedule_wpapper_date_block" id="schedule_date" >01.06.16</div>
+					<div class="schedule_wpapper_date_block" id="schedule_date" >01.06.16</div>
+				</div>
+				<div class="schedule_wpapper_field">
+					<div class="schedule_wpapper_column">
+						<div class="schedule_wpapper_column_block" id="schedule_wpapper_column_block">
+							<div id="schedule_time">
+								10.00-11.00
+							</div>
+							<span id="schedule_cost">100 руб</span>
+						</div>
+						<div class="schedule_wpapper_column_block not_active" id="schedule_wpapper_column_block">
+							<div id="schedule_time">
+								11.00-12.00
+							</div>
+							<span id="schedule_cost">100 руб</span>
+						</div>
+						<div class="schedule_wpapper_column_block not_active" id="schedule_wpapper_column_block">
+							<div id="schedule_time">
+								12.00-13.00
+							</div>
+							<span id="schedule_cost">100 руб</span>
+						</div>
+						<div class="schedule_wpapper_column_block" id="schedule_wpapper_column_block">
+							<div id="schedule_time">
+								13.00-14.00
+							</div>
+							<span id="schedule_cost">100 руб</span>
+						</div>
+						<div class="schedule_wpapper_column_block not_active" id="schedule_wpapper_column_block">
+							<div id="schedule_time">
+								14.00-15.00
+							</div>
+							<span id="schedule_cost">100 руб</span>
+						</div>
+						<div class="schedule_wpapper_column_block not_active" id="schedule_wpapper_column_block not_active">
+							<div id="schedule_time">
+								15.00-16.00
+							</div>
+							<span id="schedule_cost">100 руб</span>
+						</div>
+						<div class="schedule_wpapper_column_block not_active" id="schedule_wpapper_column_block not_active">
+							<div id="schedule_time">
+								16.00-17.00
+							</div>
+							<span id="schedule_cost">100 руб</span>
+						</div>
+						<div class="schedule_wpapper_column_block not_active" id="schedule_wpapper_column_block">
+							<div id="schedule_time">
+								17.00-18.00
+							</div>
+							<span id="schedule_cost">100 руб</span>
+						</div>
+						<div class="schedule_wpapper_column_block not_active" id="schedule_wpapper_column_block not_active">
+							<div id="schedule_time">
+								18.00-19.00
+							</div>
+							<span id="schedule_cost">100 руб</span>
+						</div>
+						<div class="schedule_wpapper_column_block not_active" id="schedule_wpapper_column_block not_active">
+							<div id="schedule_time">
+								19.00-20.00
+							</div>
+							<span id="schedule_cost">100 руб</span>
+						</div>
+						<div class="schedule_wpapper_column_block not_active" id="schedule_wpapper_column_block">
+							<div id="schedule_time">
+								20.00-21.00
+							</div>
+							<span id="schedule_cost">100 руб</span>
+						</div>
+						<div class="schedule_wpapper_column_block not_active" id="schedule_wpapper_column_block not_active">
+							<div id="schedule_time">
+								21.00-22.00
+							</div>
+							<span id="schedule_cost">100 руб</span>
+						</div>
+						<div class="schedule_wpapper_column_block not_active" id="schedule_wpapper_column_block not_active">
+							<div id="schedule_time">
+								22.00-23.00
+							</div>
+							<span id="schedule_cost">100 руб</span>
+						</div>
+						<div class="schedule_wpapper_column_block not_active" id="schedule_wpapper_column_block not_active">
+							<div id="schedule_time">
+								23.00-00.00
+							</div>
+							<span id="schedule_cost">100 руб</span>
+						</div>
+					</div>
+					<div class="schedule_wpapper_column">
+						<div class="schedule_wpapper_column_block" id="schedule_wpapper_column_block">
+							<div id="schedule_time">
+								10.00-11.00
+							</div>
+							<span id="schedule_cost">100 руб</span>
+						</div>
+						<div class="schedule_wpapper_column_block not_active" id="schedule_wpapper_column_block">
+							<div id="schedule_time">
+								11.00-12.00
+							</div>
+							<span id="schedule_cost">100 руб</span>
+						</div>
+						<div class="schedule_wpapper_column_block not_active" id="schedule_wpapper_column_block">
+							<div id="schedule_time">
+								12.00-13.00
+							</div>
+							<span id="schedule_cost">100 руб</span>
+						</div>
+						<div class="schedule_wpapper_column_block" id="schedule_wpapper_column_block">
+							<div id="schedule_time">
+								13.00-14.00
+							</div>
+							<span id="schedule_cost">100 руб</span>
+						</div>
+						<div class="schedule_wpapper_column_block not_active" id="schedule_wpapper_column_block">
+							<div id="schedule_time">
+								14.00-15.00
+							</div>
+							<span id="schedule_cost">100 руб</span>
+						</div>
+						<div class="schedule_wpapper_column_block not_active" id="schedule_wpapper_column_block not_active">
+							<div id="schedule_time">
+								15.00-16.00
+							</div>
+							<span id="schedule_cost">100 руб</span>
+						</div>
+						<div class="schedule_wpapper_column_block not_active" id="schedule_wpapper_column_block not_active">
+							<div id="schedule_time">
+								16.00-17.00
+							</div>
+							<span id="schedule_cost">100 руб</span>
+						</div>
+						<div class="schedule_wpapper_column_block not_active" id="schedule_wpapper_column_block">
+							<div id="schedule_time">
+								17.00-18.00
+							</div>
+							<span id="schedule_cost">100 руб</span>
+						</div>
+						<div class="schedule_wpapper_column_block not_active" id="schedule_wpapper_column_block not_active">
+							<div id="schedule_time">
+								18.00-19.00
+							</div>
+							<span id="schedule_cost">100 руб</span>
+						</div>
+						<div class="schedule_wpapper_column_block not_active" id="schedule_wpapper_column_block not_active">
+							<div id="schedule_time">
+								19.00-20.00
+							</div>
+							<span id="schedule_cost">100 руб</span>
+						</div>
+						<div class="schedule_wpapper_column_block not_active" id="schedule_wpapper_column_block">
+							<div id="schedule_time">
+								20.00-21.00
+							</div>
+							<span id="schedule_cost">100 руб</span>
+						</div>
+						<div class="schedule_wpapper_column_block not_active" id="schedule_wpapper_column_block not_active">
+							<div id="schedule_time">
+								21.00-22.00
+							</div>
+							<span id="schedule_cost">100 руб</span>
+						</div>
+						<div class="schedule_wpapper_column_block not_active" id="schedule_wpapper_column_block not_active">
+							<div id="schedule_time">
+								22.00-23.00
+							</div>
+							<span id="schedule_cost">100 руб</span>
+						</div>
+						<div class="schedule_wpapper_column_block not_active" id="schedule_wpapper_column_block not_active">
+							<div id="schedule_time">
+								23.00-00.00
+							</div>
+							<span id="schedule_cost">100 руб</span>
+						</div>
+					</div>
+					<div class="schedule_wpapper_column">
+						<div class="schedule_wpapper_column_block" id="schedule_wpapper_column_block">
+							<div id="schedule_time">
+								10.00-11.00
+							</div>
+							<span id="schedule_cost">100 руб</span>
+						</div>
+						<div class="schedule_wpapper_column_block not_active" id="schedule_wpapper_column_block">
+							<div id="schedule_time">
+								11.00-12.00
+							</div>
+							<span id="schedule_cost">100 руб</span>
+						</div>
+						<div class="schedule_wpapper_column_block not_active" id="schedule_wpapper_column_block">
+							<div id="schedule_time">
+								12.00-13.00
+							</div>
+							<span id="schedule_cost">100 руб</span>
+						</div>
+						<div class="schedule_wpapper_column_block" id="schedule_wpapper_column_block">
+							<div id="schedule_time">
+								13.00-14.00
+							</div>
+							<span id="schedule_cost">100 руб</span>
+						</div>
+						<div class="schedule_wpapper_column_block not_active" id="schedule_wpapper_column_block">
+							<div id="schedule_time">
+								14.00-15.00
+							</div>
+							<span id="schedule_cost">100 руб</span>
+						</div>
+						<div class="schedule_wpapper_column_block not_active" id="schedule_wpapper_column_block not_active">
+							<div id="schedule_time">
+								15.00-16.00
+							</div>
+							<span id="schedule_cost">100 руб</span>
+						</div>
+						<div class="schedule_wpapper_column_block not_active" id="schedule_wpapper_column_block not_active">
+							<div id="schedule_time">
+								16.00-17.00
+							</div>
+							<span id="schedule_cost">100 руб</span>
+						</div>
+						<div class="schedule_wpapper_column_block not_active" id="schedule_wpapper_column_block">
+							<div id="schedule_time">
+								17.00-18.00
+							</div>
+							<span id="schedule_cost">100 руб</span>
+						</div>
+						<div class="schedule_wpapper_column_block not_active" id="schedule_wpapper_column_block not_active">
+							<div id="schedule_time">
+								18.00-19.00
+							</div>
+							<span id="schedule_cost">100 руб</span>
+						</div>
+						<div class="schedule_wpapper_column_block not_active" id="schedule_wpapper_column_block not_active">
+							<div id="schedule_time">
+								19.00-20.00
+							</div>
+							<span id="schedule_cost">100 руб</span>
+						</div>
+						<div class="schedule_wpapper_column_block not_active" id="schedule_wpapper_column_block">
+							<div id="schedule_time">
+								20.00-21.00
+							</div>
+							<span id="schedule_cost">100 руб</span>
+						</div>
+						<div class="schedule_wpapper_column_block not_active" id="schedule_wpapper_column_block not_active">
+							<div id="schedule_time">
+								21.00-22.00
+							</div>
+							<span id="schedule_cost">100 руб</span>
+						</div>
+						<div class="schedule_wpapper_column_block not_active" id="schedule_wpapper_column_block not_active">
+							<div id="schedule_time">
+								22.00-23.00
+							</div>
+							<span id="schedule_cost">100 руб</span>
+						</div>
+						<div class="schedule_wpapper_column_block not_active" id="schedule_wpapper_column_block not_active">
+							<div id="schedule_time">
+								23.00-00.00
+							</div>
+							<span id="schedule_cost">100 руб</span>
+						</div>
+					</div>
+					<div class="schedule_wpapper_column">
+						<div class="schedule_wpapper_column_block" id="schedule_wpapper_column_block">
+							<div id="schedule_time">
+								10.00-11.00
+							</div>
+							<span id="schedule_cost">100 руб</span>
+						</div>
+						<div class="schedule_wpapper_column_block not_active" id="schedule_wpapper_column_block">
+							<div id="schedule_time">
+								11.00-12.00
+							</div>
+							<span id="schedule_cost">100 руб</span>
+						</div>
+						<div class="schedule_wpapper_column_block not_active" id="schedule_wpapper_column_block">
+							<div id="schedule_time">
+								12.00-13.00
+							</div>
+							<span id="schedule_cost">100 руб</span>
+						</div>
+						<div class="schedule_wpapper_column_block" id="schedule_wpapper_column_block">
+							<div id="schedule_time">
+								13.00-14.00
+							</div>
+							<span id="schedule_cost">100 руб</span>
+						</div>
+						<div class="schedule_wpapper_column_block not_active" id="schedule_wpapper_column_block">
+							<div id="schedule_time">
+								14.00-15.00
+							</div>
+							<span id="schedule_cost">100 руб</span>
+						</div>
+						<div class="schedule_wpapper_column_block not_active" id="schedule_wpapper_column_block not_active">
+							<div id="schedule_time">
+								15.00-16.00
+							</div>
+							<span id="schedule_cost">100 руб</span>
+						</div>
+						<div class="schedule_wpapper_column_block not_active" id="schedule_wpapper_column_block not_active">
+							<div id="schedule_time">
+								16.00-17.00
+							</div>
+							<span id="schedule_cost">100 руб</span>
+						</div>
+						<div class="schedule_wpapper_column_block not_active" id="schedule_wpapper_column_block">
+							<div id="schedule_time">
+								17.00-18.00
+							</div>
+							<span id="schedule_cost">100 руб</span>
+						</div>
+						<div class="schedule_wpapper_column_block not_active" id="schedule_wpapper_column_block not_active">
+							<div id="schedule_time">
+								18.00-19.00
+							</div>
+							<span id="schedule_cost">100 руб</span>
+						</div>
+						<div class="schedule_wpapper_column_block not_active" id="schedule_wpapper_column_block not_active">
+							<div id="schedule_time">
+								19.00-20.00
+							</div>
+							<span id="schedule_cost">100 руб</span>
+						</div>
+						<div class="schedule_wpapper_column_block not_active" id="schedule_wpapper_column_block">
+							<div id="schedule_time">
+								20.00-21.00
+							</div>
+							<span id="schedule_cost">100 руб</span>
+						</div>
+						<div class="schedule_wpapper_column_block not_active" id="schedule_wpapper_column_block not_active">
+							<div id="schedule_time">
+								21.00-22.00
+							</div>
+							<span id="schedule_cost">100 руб</span>
+						</div>
+						<div class="schedule_wpapper_column_block not_active" id="schedule_wpapper_column_block not_active">
+							<div id="schedule_time">
+								22.00-23.00
+							</div>
+							<span id="schedule_cost">100 руб</span>
+						</div>
+						<div class="schedule_wpapper_column_block not_active" id="schedule_wpapper_column_block not_active">
+							<div id="schedule_time">
+								23.00-00.00
+							</div>
+							<span id="schedule_cost">100 руб</span>
+						</div>
+					</div>
+					<div class="schedule_wpapper_column">
+						<div class="schedule_wpapper_column_block" id="schedule_wpapper_column_block">
+							<div id="schedule_time">
+								10.00-11.00
+							</div>
+							<span id="schedule_cost">100 руб</span>
+						</div>
+						<div class="schedule_wpapper_column_block not_active" id="schedule_wpapper_column_block">
+							<div id="schedule_time">
+								11.00-12.00
+							</div>
+							<span id="schedule_cost">100 руб</span>
+						</div>
+						<div class="schedule_wpapper_column_block not_active" id="schedule_wpapper_column_block">
+							<div id="schedule_time">
+								12.00-13.00
+							</div>
+							<span id="schedule_cost">100 руб</span>
+						</div>
+						<div class="schedule_wpapper_column_block" id="schedule_wpapper_column_block">
+							<div id="schedule_time">
+								13.00-14.00
+							</div>
+							<span id="schedule_cost">100 руб</span>
+						</div>
+						<div class="schedule_wpapper_column_block not_active" id="schedule_wpapper_column_block">
+							<div id="schedule_time">
+								14.00-15.00
+							</div>
+							<span id="schedule_cost">100 руб</span>
+						</div>
+						<div class="schedule_wpapper_column_block not_active" id="schedule_wpapper_column_block not_active">
+							<div id="schedule_time">
+								15.00-16.00
+							</div>
+							<span id="schedule_cost">100 руб</span>
+						</div>
+						<div class="schedule_wpapper_column_block not_active" id="schedule_wpapper_column_block not_active">
+							<div id="schedule_time">
+								16.00-17.00
+							</div>
+							<span id="schedule_cost">100 руб</span>
+						</div>
+						<div class="schedule_wpapper_column_block not_active" id="schedule_wpapper_column_block">
+							<div id="schedule_time">
+								17.00-18.00
+							</div>
+							<span id="schedule_cost">100 руб</span>
+						</div>
+						<div class="schedule_wpapper_column_block not_active" id="schedule_wpapper_column_block not_active">
+							<div id="schedule_time">
+								18.00-19.00
+							</div>
+							<span id="schedule_cost">100 руб</span>
+						</div>
+						<div class="schedule_wpapper_column_block not_active" id="schedule_wpapper_column_block not_active">
+							<div id="schedule_time">
+								19.00-20.00
+							</div>
+							<span id="schedule_cost">100 руб</span>
+						</div>
+						<div class="schedule_wpapper_column_block not_active" id="schedule_wpapper_column_block">
+							<div id="schedule_time">
+								20.00-21.00
+							</div>
+							<span id="schedule_cost">100 руб</span>
+						</div>
+						<div class="schedule_wpapper_column_block not_active" id="schedule_wpapper_column_block not_active">
+							<div id="schedule_time">
+								21.00-22.00
+							</div>
+							<span id="schedule_cost">100 руб</span>
+						</div>
+						<div class="schedule_wpapper_column_block not_active" id="schedule_wpapper_column_block not_active">
+							<div id="schedule_time">
+								22.00-23.00
+							</div>
+							<span id="schedule_cost">100 руб</span>
+						</div>
+						<div class="schedule_wpapper_column_block not_active" id="schedule_wpapper_column_block not_active">
+							<div id="schedule_time">
+								23.00-00.00
+							</div>
+							<span id="schedule_cost">100 руб</span>
+						</div>
+					</div>
+					<div class="schedule_wpapper_column">
+						<div class="schedule_wpapper_column_block" id="schedule_wpapper_column_block">
+							<div id="schedule_time">
+								10.00-11.00
+							</div>
+							<span id="schedule_cost">100 руб</span>
+						</div>
+						<div class="schedule_wpapper_column_block not_active" id="schedule_wpapper_column_block">
+							<div id="schedule_time">
+								11.00-12.00
+							</div>
+							<span id="schedule_cost">100 руб</span>
+						</div>
+						<div class="schedule_wpapper_column_block not_active" id="schedule_wpapper_column_block">
+							<div id="schedule_time">
+								12.00-13.00
+							</div>
+							<span id="schedule_cost">100 руб</span>
+						</div>
+						<div class="schedule_wpapper_column_block" id="schedule_wpapper_column_block">
+							<div id="schedule_time">
+								13.00-14.00
+							</div>
+							<span id="schedule_cost">100 руб</span>
+						</div>
+						<div class="schedule_wpapper_column_block not_active" id="schedule_wpapper_column_block">
+							<div id="schedule_time">
+								14.00-15.00
+							</div>
+							<span id="schedule_cost">100 руб</span>
+						</div>
+						<div class="schedule_wpapper_column_block not_active" id="schedule_wpapper_column_block not_active">
+							<div id="schedule_time">
+								15.00-16.00
+							</div>
+							<span id="schedule_cost">100 руб</span>
+						</div>
+						<div class="schedule_wpapper_column_block not_active" id="schedule_wpapper_column_block not_active">
+							<div id="schedule_time">
+								16.00-17.00
+							</div>
+							<span id="schedule_cost">100 руб</span>
+						</div>
+						<div class="schedule_wpapper_column_block not_active" id="schedule_wpapper_column_block">
+							<div id="schedule_time">
+								17.00-18.00
+							</div>
+							<span id="schedule_cost">100 руб</span>
+						</div>
+						<div class="schedule_wpapper_column_block not_active" id="schedule_wpapper_column_block not_active">
+							<div id="schedule_time">
+								18.00-19.00
+							</div>
+							<span id="schedule_cost">100 руб</span>
+						</div>
+						<div class="schedule_wpapper_column_block not_active" id="schedule_wpapper_column_block not_active">
+							<div id="schedule_time">
+								19.00-20.00
+							</div>
+							<span id="schedule_cost">100 руб</span>
+						</div>
+						<div class="schedule_wpapper_column_block not_active" id="schedule_wpapper_column_block">
+							<div id="schedule_time">
+								20.00-21.00
+							</div>
+							<span id="schedule_cost">100 руб</span>
+						</div>
+						<div class="schedule_wpapper_column_block not_active" id="schedule_wpapper_column_block not_active">
+							<div id="schedule_time">
+								21.00-22.00
+							</div>
+							<span id="schedule_cost">100 руб</span>
+						</div>
+						<div class="schedule_wpapper_column_block not_active" id="schedule_wpapper_column_block not_active">
+							<div id="schedule_time">
+								22.00-23.00
+							</div>
+							<span id="schedule_cost">100 руб</span>
+						</div>
+						<div class="schedule_wpapper_column_block not_active" id="schedule_wpapper_column_block not_active">
+							<div id="schedule_time">
+								23.00-00.00
+							</div>
+							<span id="schedule_cost">100 руб</span>
+						</div>
+					</div>
+					<div class="schedule_wpapper_column">
+						<div class="schedule_wpapper_column_block" id="schedule_wpapper_column_block">
+							<div id="schedule_time">
+								10.00-11.00
+							</div>
+							<span id="schedule_cost">100 руб</span>
+						</div>
+						<div class="schedule_wpapper_column_block not_active" id="schedule_wpapper_column_block">
+							<div id="schedule_time">
+								11.00-12.00
+							</div>
+							<span id="schedule_cost">100 руб</span>
+						</div>
+						<div class="schedule_wpapper_column_block not_active" id="schedule_wpapper_column_block">
+							<div id="schedule_time">
+								12.00-13.00
+							</div>
+							<span id="schedule_cost">100 руб</span>
+						</div>
+						<div class="schedule_wpapper_column_block" id="schedule_wpapper_column_block">
+							<div id="schedule_time">
+								13.00-14.00
+							</div>
+							<span id="schedule_cost">100 руб</span>
+						</div>
+						<div class="schedule_wpapper_column_block not_active" id="schedule_wpapper_column_block">
+							<div id="schedule_time">
+								14.00-15.00
+							</div>
+							<span id="schedule_cost">100 руб</span>
+						</div>
+						<div class="schedule_wpapper_column_block not_active" id="schedule_wpapper_column_block not_active">
+							<div id="schedule_time">
+								15.00-16.00
+							</div>
+							<span id="schedule_cost">100 руб</span>
+						</div>
+						<div class="schedule_wpapper_column_block not_active" id="schedule_wpapper_column_block not_active">
+							<div id="schedule_time">
+								16.00-17.00
+							</div>
+							<span id="schedule_cost">100 руб</span>
+						</div>
+						<div class="schedule_wpapper_column_block not_active" id="schedule_wpapper_column_block">
+							<div id="schedule_time">
+								17.00-18.00
+							</div>
+							<span id="schedule_cost">100 руб</span>
+						</div>
+						<div class="schedule_wpapper_column_block not_active" id="schedule_wpapper_column_block not_active">
+							<div id="schedule_time">
+								18.00-19.00
+							</div>
+							<span id="schedule_cost">100 руб</span>
+						</div>
+						<div class="schedule_wpapper_column_block not_active" id="schedule_wpapper_column_block not_active">
+							<div id="schedule_time">
+								19.00-20.00
+							</div>
+							<span id="schedule_cost">100 руб</span>
+						</div>
+						<div class="schedule_wpapper_column_block not_active" id="schedule_wpapper_column_block">
+							<div id="schedule_time">
+								20.00-21.00
+							</div>
+							<span id="schedule_cost">100 руб</span>
+						</div>
+						<div class="schedule_wpapper_column_block not_active" id="schedule_wpapper_column_block not_active">
+							<div id="schedule_time">
+								21.00-22.00
+							</div>
+							<span id="schedule_cost">100 руб</span>
+						</div>
+						<div class="schedule_wpapper_column_block not_active" id="schedule_wpapper_column_block not_active">
+							<div id="schedule_time">
+								22.00-23.00
+							</div>
+							<span id="schedule_cost">100 руб</span>
+						</div>
+						<div class="schedule_wpapper_column_block not_active" id="schedule_wpapper_column_block not_active">
+							<div id="schedule_time">
+								23.00-00.00
+							</div>
+							<span id="schedule_cost">100 руб</span>
+						</div>
+					</div>
+				</div>
 			</div>
-			<div class="quest_statistics_body_block">
-				<span>Жуки</span>
-				<span>2 игрока</span>
-				<span>12 минут</span>
-				<span>1 место</span>
-			</div>
-			<div class="quest_statistics_body_block">
-				<span>Жуки</span>
-				<span>2 игрока</span>
-				<span>12 минут</span>
-				<span>1 место</span>
-			</div>
-			<div class="quest_statistics_body_block">
-				<span>Жуки</span>
-				<span>2 игрока</span>
-				<span>12 минут</span>
-				<span>1 место</span>
-			</div>
-			<div class="quest_statistics_body_block">
-				<span>Жуки</span>
-				<span>2 игрока</span>
-				<span>12 минут</span>
-				<span>1 место</span>
-			</div>
-			<div class="quest_statistics_body_block">
-				<span>Жуки</span>
-				<span>2 игрока</span>
-				<span>12 минут</span>
-				<span>1 место</span>
-			</div>
-			<div class="quest_statistics_body_block">
-				<span>Жуки</span>
-				<span>2 игрока</span>
-				<span>12 минут</span>
-				<span>1 место</span>
-			</div>
-			<div class="quest_statistics_body_block">
-				<span>Жуки</span>
-				<span>2 игрока</span>
-				<span>12 минут</span>
-				<span>1 место</span>
-			</div>
-		</div>
-	</section>
-	<section class="quest_feedback container">
-		<div class="quest_feedback_header">Отзывы</div>
-		<div class="quest_feedback_block">«Играли сегодня в 9 утра в Узников! Восторг! Шикарный квест! Много комнат, много задач, они не очень сложные, но есть над чем "зависнуть" » <span>Светлана</span>.</div>
-		<div class="quest_feedback_block">«устроили с коллегами корпоративный поход на квесты! Узники подземелья нереально антуражные! Загадки супер, особенно последняя. Советую всем » <span>Ксю</span></div>
-		<a href="" class="addReview">Добавить отзыв ></a>
-		<form action enctype="multipart/form-data" class="mailUs" id="mailUsFeedback" method="post">
-			<div class="mailUsRow">
-				<input type="text" id="mailUsName" name="mailUsName" 	 class="mailUsName" placeholder="Имя..." required>
-				<input type="text" id="mailUsEmail" name="mailUsEmail" 	 class="mailUsEmail" placeholder="Email..." required>
+			<div class="schedule_wpapper_bottom_desc">
+				Если в расписании Вы не нашли интересующий вас день позвонить нам по телефону  +79171047666
 			</div>	
-			<div class="mailUsRow">
-				<textarea name="mailUsText" class="mailUsText" id="mailUsText" cols="30" rows="2" placeholder="Комментарий" required></textarea>
+		</section>
+		<section class="quest_statistics container">
+			<div class="quest_statistics_header">Топ лучших команд</div>
+			<div class="quest_statistics_body">
+				<div class="quest_statistics_body_block">
+					<span>Жуки</span>
+					<span>2 игрока</span>
+					<span>12 минут</span>
+					<span>1 место</span>
+				</div>
+				<div class="quest_statistics_body_block">
+					<span>Жуки</span>
+					<span>2 игрока</span>
+					<span>12 минут</span>
+					<span>1 место</span>
+				</div>
+				<div class="quest_statistics_body_block">
+					<span>Жуки</span>
+					<span>2 игрока</span>
+					<span>12 минут</span>
+					<span>1 место</span>
+				</div>
+				<div class="quest_statistics_body_block">
+					<span>Жуки</span>
+					<span>2 игрока</span>
+					<span>12 минут</span>
+					<span>1 место</span>
+				</div>
+				<div class="quest_statistics_body_block">
+					<span>Жуки</span>
+					<span>2 игрока</span>
+					<span>12 минут</span>
+					<span>1 место</span>
+				</div>
+				<div class="quest_statistics_body_block">
+					<span>Жуки</span>
+					<span>2 игрока</span>
+					<span>12 минут</span>
+					<span>1 место</span>
+				</div>
+				<div class="quest_statistics_body_block">
+					<span>Жуки</span>
+					<span>2 игрока</span>
+					<span>12 минут</span>
+					<span>1 место</span>
+				</div>
+				<div class="quest_statistics_body_block">
+					<span>Жуки</span>
+					<span>2 игрока</span>
+					<span>12 минут</span>
+					<span>1 место</span>
+				</div>
+				<div class="quest_statistics_body_block">
+					<span>Жуки</span>
+					<span>2 игрока</span>
+					<span>12 минут</span>
+					<span>1 место</span>
+				</div>
+				<div class="quest_statistics_body_block">
+					<span>Жуки</span>
+					<span>2 игрока</span>
+					<span>12 минут</span>
+					<span>1 место</span>
+				</div>
 			</div>
-			<span class="mailUs_markText">Пожалуйста оцените квест «Дом призраков»</span>	
-			<div class="rating quest_mark_stars">
+		</section>
+		<section class="quest_feedback container">
+			<div class="quest_feedback_header">Отзывы</div>
+			<div class="quest_feedback_block">«Играли сегодня в 9 утра в Узников! Восторг! Шикарный квест! Много комнат, много задач, они не очень сложные, но есть над чем "зависнуть" » <span>Светлана</span>.</div>
+			<div class="quest_feedback_block">«устроили с коллегами корпоративный поход на квесты! Узники подземелья нереально антуражные! Загадки супер, особенно последняя. Советую всем » <span>Ксю</span></div>
+			<a href="" class="addReview">Добавить отзыв ></a>
+			<form action enctype="multipart/form-data" class="mailUs" id="mailUsFeedback" method="post">
+				<div class="mailUsRow">
+					<input type="text" id="mailUsName" name="mailUsName" 	 class="mailUsName" placeholder="Имя..." required>
+					<input type="text" id="mailUsEmail" name="mailUsEmail" 	 class="mailUsEmail" placeholder="Email..." required>
+				</div>	
+				<div class="mailUsRow">
+					<textarea name="mailUsText" class="mailUsText" id="mailUsText" cols="30" rows="2" placeholder="Комментарий" required></textarea>
+				</div>
+				<span class="mailUs_markText">Пожалуйста оцените квест «Дом призраков»</span>	
+				<div class="rating quest_mark_stars">
 
-				 <input type="radio" name="rating" value="1" id="r1">
-				 <label for="r1"></label>
-				 
-				 <input type="radio" name="rating" value="2" id="r2">
-				 <label for="r2"></label>
-				 
-				 <input type="radio" name="rating" value="3" id="r3">
-				 <label for="r3"></label>
-				 
-				 <input type="radio" name="rating" value="4" id="r4">
-				 <label for="r4"></label>
+					 <input type="radio" name="rating" value="1" id="r1">
+					 <label for="r1"></label>
+					 
+					 <input type="radio" name="rating" value="2" id="r2">
+					 <label for="r2"></label>
+					 
+					 <input type="radio" name="rating" value="3" id="r3">
+					 <label for="r3"></label>
+					 
+					 <input type="radio" name="rating" value="4" id="r4">
+					 <label for="r4"></label>
 
-				 <input type="radio" name="rating" value="5" id="r5">
-				 <label for="r5"></label>
-			 
-			</div>	
+					 <input type="radio" name="rating" value="5" id="r5">
+					 <label for="r5"></label>
+				 
+				</div>	
 
-			<button class="mailUsSubmit" type="submit" id="mailFeedbackSubmit">Отправить</button>
-		</form>				
-	</section>
+				<button class="mailUsSubmit" type="submit" id="mailFeedbackSubmit">Отправить</button>
+			</form>				
+		</section>
+	</div>
 	<footer>
 		<div class="wrapper">
 			<div class="aboutUs">
