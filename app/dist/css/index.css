@@ -34,6 +34,14 @@ body.simpsons_quest {
   background: url(../images/simpsons_background.jpg) no-repeat top center;
   background-color: #000; }
 
+body.kontclager_quest {
+  background: url(../images/kontclager_background.jpg) no-repeat top center;
+  background-color: #000; }
+
+body.kukla_quest {
+  background: url(../images/kukla_background.jpg) no-repeat top center;
+  background-color: #000; }
+
 .container {
   width: 980px;
   margin: 0 auto; }
@@ -113,7 +121,7 @@ body.simpsons_quest {
         position: absolute;
         color: #fff; }
       .questChoise .row .questContainer .questName, .questChoise .row .questContainer .questPlayers {
-        font-family: MyriadProSemiBold;
+        font-family: MyriadProRegular;
         font-size: 18.9px; }
       .questChoise .row .questContainer .questPromo {
         font-family: MyriadProRegular;
@@ -123,21 +131,21 @@ body.simpsons_quest {
         font-family: MyriadProSemiBold;
         font-size: 19px; }
       .questChoise .row .questContainer .questName {
-        top: 25px;
-        left: 60px; }
+        top: 19px;
+        left: 55px; }
       .questChoise .row .questContainer .questPlayers {
-        bottom: 30px;
+        bottom: 20px;
         left: 45px; }
       .questChoise .row .questContainer .questPromo {
         text-align: center;
         top: 115px;
         left: 115px; }
       .questChoise .row .questContainer .questRating {
-        right: 30px;
-        top: 21px; }
+        right: 20px;
+        top: 16px; }
       .questChoise .row .questContainer .questAge {
-        right: 28px;
-        top: 218px; }
+        right: 27px;
+        top: 224px; }
     .questChoise .row .questContainer:hover {
       -webkit-box-shadow: 0px 0px 10px 0px white;
       -moz-box-shadow: 0px 0px 10px 0px white;
@@ -163,9 +171,6 @@ body.simpsons_quest {
       transition: 200ms; }
     .questChoise .row .simpsons {
       background: url(../images/simpsons_quest.png) no-repeat center;
-      transition: 200ms; }
-    .questChoise .row .simpsons:hover {
-      background: url(../images/simpsons_quest_active.png) no-repeat center;
       transition: 200ms; }
 
 section.questChoise.container > div:nth-child(2) {
@@ -214,14 +219,14 @@ section.questChoise.container > div:nth-child(2) {
       font-family: MyriadProBold;
       font-size: 27.04px;
       position: absolute;
-      top: 87px;
+      top: 105px;
       left: 241px;
       text-transform: uppercase;
       margin-top: -17px; }
     .actions .actionContainer .actionContainerPromo {
       color: #fff;
-      font-size: 26.67px;
-      font-family: MyriadProBold;
+      font-size: 24px;
+      font-family: MyriadProRegular;
       position: absolute;
       left: 480px;
       top: 45px; }
@@ -230,11 +235,12 @@ section.questChoise.container > div:nth-child(2) {
       display: block;
       color: #fff;
       font-family: MyriadProRegular;
-      font-size: 18.67px;
+      font-size: 16px;
       position: absolute;
-      text-align: justify;
+      text-align: center;
       left: 343px;
-      top: 160px; }
+      top: 160px;
+      font-weight: 100; }
     .actions .actionContainer .actionContainerComment {
       font-family: MyriadProRegular;
       font-size: 13.33px;
@@ -349,7 +355,7 @@ section.questChoise.container > div:nth-child(2) {
         justify-content: space-between;
         position: relative; }
         .reviews .reviewsContainer .reviewsBlock .reviewsBlockHeader .reviewsHeaderName, .reviews .reviewsContainer .reviewsBlock .reviewsBlockHeader .reviewsHeaderDate {
-          font-size: 24px;
+          font-size: 18.67px;
           color: #fff;
           font-family: MyriadProRegular;
           margin: 10px; }
@@ -366,7 +372,7 @@ section.questChoise.container > div:nth-child(2) {
         margin: -25px auto; }
       .reviews .reviewsContainer .reviewsBlock .reviewsBlockText {
         text-align: center;
-        font-size: 21.33px;
+        font-size: 16px;
         color: #fff;
         font-family: MyriadProRegular;
         margin: 10px;
@@ -440,10 +446,10 @@ section.questChoise.container > div:nth-child(2) {
       background-color: rgba(117, 117, 117, 0.4); }
       .ourTeam .ourTeamContainer .ourTeamBlock .ourTeamBlockHeader {
         font-family: MyriadProSemiBold;
-        font-size: 24px;
+        font-size: 18.67px;
         color: #fff;
         background: url(../images/team_header_background.png) no-repeat -15px 0px;
-        padding: 5px 20px 40px 160px; }
+        padding: 5px 20px 40px 125px; }
       .ourTeam .ourTeamContainer .ourTeamBlock .ourTeamBlockContent {
         display: flex;
         justify-content: space-between; }
@@ -478,13 +484,13 @@ section.questChoise.container > div:nth-child(2) {
           .ourTeam .ourTeamContainer .ourTeamBlock .ourTeamBlockContent .ourTeamBlockDescription h2 {
             color: #a0a0a9;
             font-family: MyriadProSemiBold;
-            font-size: 24px;
+            font-size: 18.67px;
             margin-top: -20px;
             margin-bottom: 20px; }
           .ourTeam .ourTeamContainer .ourTeamBlock .ourTeamBlockContent .ourTeamBlockDescription p {
             color: #fff;
             font-family: MyriadProSemiBold;
-            font-size: 21.33px;
+            font-size: 18.67px;
             max-height: 295px;
             overflow: auto;
             margin-right: 20px; }
@@ -532,13 +538,13 @@ section.questChoise.container > div:nth-child(2) {
       text-align: left; }
       .contacts .contactsContent .callUs span, .contacts .contactsContent .callUs .callUsPhone, .contacts .contactsContent .callUs .callUsViber, .contacts_page .contactsContent .callUs span, .contacts_page .contactsContent .callUs .callUsPhone, .contacts_page .contactsContent .callUs .callUsViber {
         font-family: MyriadProRegular;
-        font-size: 24px; }
+        font-size: 21.33px; }
       .contacts .contactsContent .callUs .callUsPhone, .contacts_page .contactsContent .callUs .callUsPhone {
         position: relative;
         padding: 22px 0px 22px 60px; }
         .contacts .contactsContent .callUs .callUsPhone span, .contacts_page .contactsContent .callUs .callUsPhone span {
           font-family: MyriadProBold;
-          font-size: 26.67px;
+          font-size: 21.33px;
           padding-left: 50px; }
       .contacts .contactsContent .callUs .callUsPhone:before, .contacts_page .contactsContent .callUs .callUsPhone:before {
         content: url("../images/contacts_phone.png");
@@ -552,7 +558,7 @@ section.questChoise.container > div:nth-child(2) {
         padding: 12px 0px 22px 60px; }
         .contacts .contactsContent .callUs .callUsViber span, .contacts_page .contactsContent .callUs .callUsViber span {
           font-family: MyriadProBold;
-          font-size: 26.67px;
+          font-size: 21.33px;
           padding-left: 63px; }
       .contacts .contactsContent .callUs .callUsViber:before, .contacts_page .contactsContent .callUs .callUsViber:before {
         content: url("../images/contacts_viber.png");
@@ -574,12 +580,12 @@ section.questChoise.container > div:nth-child(2) {
         box-sizing: border-box;
         width: 490px;
         font-family: MyriadProRegular;
-        font-size: 21.33px;
+        font-size: 18.67px;
         color: #babdca;
         margin: 15px 0px; }
       .contacts .contactsContent .mailUs button, .contacts_page .contactsContent .mailUs button {
         font-family: MyriadProRegular;
-        font-size: 21.33px;
+        font-size: 18.67px;
         text-transform: uppercase;
         color: #ebedee;
         border: 2px solid #ebedee;
@@ -599,8 +605,8 @@ section.questChoise.container > div:nth-child(2) {
   margin-top: 30px; }
 
 .map .mapHeader {
-  font-family: MyriadProSemiBold;
-  font-size: 26.67px;
+  font-family: MyriadProRegular;
+  font-size: 20.33px;
   color: #fff;
   position: relative;
   padding: 20px 30px 50px 55px;
