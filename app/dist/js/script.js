@@ -59,6 +59,27 @@ $(document).ready(function(){
 		    	
 		}
 	});
+
+	$("#itemScheduleFormSubmit").submit(function(){
+	    event.preventDefault();
+		var gameDate = $(".itemScheduleDate").text();
+		var gameTime = $(".itemScheduleTime").text();
+		var gameCost = $(".itemScheduleCost").text();
+		var gameName = $("#itemScheduleFormName").val();
+		var gameSurname = $("#itemScheduleFormSurname").var();
+		var gameEmail = $("#itemScheduleFormEmail").var();
+
+		var DataString = 'gameDate=' + gameDate + '&gameTime=' + gameTime + '&gameCost=' + gameCost + '&gameName=' + gameName + '&gameSurname=' + gameSurname + '&gameEmail=' + gameEmail;
+		
+		$.ajax({
+			type: "POST",
+			url: "../../schedule_mail.php",
+			data: DataString,
+			success: function(){
+				alert("Заявка успешно отправлена");
+			}	
+		});	
+	});
 	
 
 });

@@ -1105,14 +1105,14 @@
 				<div class="schedule_modalWindow_formFields">
 					Начало сеанса <span class="itemScheduleDate"></span>, <span class="itemScheduleTime"></span><br>
 					К оплате <span class="itemScheduleCost"></span>
-					<form id="itemScheduleForm" action="?" class="itemScheduleForm">
+					<form action enctype="multipart/form-data" id="itemScheduleForm" method="post" class="itemScheduleForm">
 						<input type="text" name="itemScheduleFormName" class="itemScheduleFormName" id="itemScheduleFormName" required placeholder="Ваше имя">
 						<input type="text" name="itemScheduleFormSurname" class="itemScheduleFormSurname" id="itemScheduleFormSurname" required placeholder="Ваша фамилия">
 						<input type="text" name="itemScheduleFormPhone" class="itemScheduleFormPhone" id="itemScheduleFormPhone" required placeholder="Ваш телефон">
-						<input type="checkbox" id="itemScheduleFormCheck" class="itemScheduleFormCheck" />
+						<input type="checkbox" id="itemScheduleFormCheck" class="itemScheduleFormCheck" required />
 <label class="itemScheduleFormLabel" for="itemScheduleFormCheck"><span></span>Я прочел и принимаю условия Пользовательского соглашения</label>
 <div class="itemScheduleFormSubmitWrapper">
-	<input type="submit" name="itemScheduleFormSubmit" value="Забронировать" id="itemScheduleFormSubmit">
+	<button type="submit" name="itemScheduleFormSubmit" id="itemScheduleFormSubmit" class="itemScheduleFormSubmit">Забронировать</button>
 </div>
 
 					</form>
