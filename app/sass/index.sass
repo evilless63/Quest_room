@@ -778,3 +778,131 @@ body > section.ourTeam.ourTeam_page.container > div:nth-child(3) > div > div.our
     color: #BCBBB3;
     text-shadow: 0 0 20px #E8E8E7;
                     
+.schedule_date_nodisplay
+    display: none;
+
+.modalWindow   
+    display: none                     
+    text-align: center
+    .schedule_modalWindow_header
+        font-size: 26.67px
+        font-family: tahoma;
+        color: #fff;
+        position: relative;
+        text-align: center;
+        font-weight: 300;
+        text-transform: uppercase;
+        width: 520px;
+        display: inline-block;
+        margin: 50px 0 15px 0;
+    .schedule_modalWindow_header:after,
+        content: url(../images/right_flag_bullet.png)
+        position: absolute;
+        width: 40px;
+        height: 39px; 
+        right: 13px;
+        top: -3px;   
+    .schedule_modalWindow_header:before
+        content: url(../images/left_flag_bullet.png)
+        position: absolute;
+        width: 40px;
+        height: 39px;
+        left: 13px;
+        top: -3px
+    .schedule_modalWindow_desc
+        font-size: 18.33px
+        font-family: MyriadProRegular
+        color: #fff
+        margin-top: 20px;
+        margin-bottom: 40px;
+    .schedule_modalWindow_form 
+        display: flex
+        justify-content: space-between
+        border: 1px solid #fff 
+        padding: 12px 12px 12px 25px 
+        /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#091b4a+0,210e2f+100&0.53+0,0.53+100 */
+        background: -moz-linear-gradient(-45deg,  rgba(9,27,74,0.53) 0%, rgba(33,14,47,0.53) 100%); /* FF3.6-15 */
+        background: -webkit-linear-gradient(-45deg,  rgba(9,27,74,0.53) 0%,rgba(33,14,47,0.53) 100%); /* Chrome10-25,Safari5.1-6 */
+        background: linear-gradient(135deg,  rgba(9,27,74,0.53) 0%,rgba(33,14,47,0.53) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+        filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#87091b4a', endColorstr='#87210e2f',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+        margin-bottom: 730px
+        .schedule_modalWindow_formHeader
+            font-family: tahoma
+            font-size: 26.67px
+            color: #fff
+            padding: 10px 110px 25px 35px
+            text-transform: uppercase
+            margin-left: -41px
+            background: url("../images/schedule_form_header_background.png") no-repeat 0px 0px
+        .schedule_modalWindow_formFields
+            text-align: left
+            font-family: MyriadProRegular
+            font-size: 21.33px
+            color: #fff
+            .itemScheduleForm
+                display: flex
+                flex-direction: column
+                justify-content: space-around
+                width: 94%
+                input[type=text]
+                    padding: 10px
+                    color: #fff
+                    font-family: MyriadProRegular
+                    font-size: 13.33px
+                    text-align: left
+                    background-color: #575e70 
+                    border: none
+                    margin: 8px 0
+.schedule_background
+    background: url(../images/schedule_background.jpg) top center no-repeat
+
+input[type=submit]
+    font-family: MyriadProRegular;
+    font-size: 13.33px;
+    text-transform: uppercase;
+    color: #ebedee;
+    border: 2px solid #ebedee;
+    padding: 11px;
+    background-color: rgba(142, 125, 179, 0.4);
+    box-sizing: border-box;
+    margin-top: 12px;
+    cursor: pointer;
+    transition: 200ms;
+    width: 100%
+    margin: 0 auto
+    /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#91aaca+0,605e9e+100&0.53+0,0.53+100 */
+    background: -moz-linear-gradient(top,  rgba(145,170,202,0.53) 0%, rgba(96,94,158,0.53) 100%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(top,  rgba(145,170,202,0.53) 0%,rgba(96,94,158,0.53) 100%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to bottom,  rgba(145,170,202,0.53) 0%,rgba(96,94,158,0.53) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#8791aaca', endColorstr='#87605e9e',GradientType=0 ); /* IE6-9 */
+.itemScheduleFormSubmitWrapper
+    width: 32%
+    margin: 0 auto
+.itemScheduleFormSubmitWrapper:hover
+    -webkit-box-shadow: 0px 0px 40px -1px rgba(255,255,255,0.5);
+    -moz-box-shadow: 0px 0px 40px -1px rgba(255,255,255,0.5);
+    box-shadow: 0px 0px 40px -1px rgba(255,255,255,0.5);
+input[type=submit]:hover
+    -webkit-box-shadow: inset 0px 0px 74px 47px rgba(255,255,255,0.5);
+    -moz-box-shadow: inset 0px 0px 74px 47px rgba(255,255,255,0.5);
+    box-shadow: inset 0px 0px 74px 47px rgba(255,255,255,0.5);
+
+input[type="checkbox"] + label.itemScheduleFormLabel
+    font-family: MyriadProRegular
+    font-size: 14px
+    margin: 22px 0px 30px 0px
+    span 
+        display: inline-block;
+        vertical-align: middle;
+        width: 22px;
+        height: 22px;
+        margin: -1px 4px 0 0;
+        background: url(../images/itemScheduleFormCheck_unchecked.png) no-repeat 0 0;
+        cursor: pointer
+
+input[type="checkbox"]:checked + label.itemScheduleFormLabel
+    span 
+        background: url(../images/itemScheduleFormCheck_checked.png) no-repeat 0 0
+
+input[type="checkbox"]
+    display: none        

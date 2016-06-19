@@ -35,6 +35,32 @@ $(document).ready(function(){
 		});
 	});
 
+	$(".schedule_wpapper_column_block").click(function(){
+		if( $(this).hasClass("not_active")){
+			//Do nothing
+		} else {
+			$("body").removeClass();
+		    $("body").addClass("schedule_background");
+
+			$(".quest_description_wrapper, .info_wrapper").fadeOut("slow");
+
+			var itemScheduleTime = $(this).children(".schedule_time").text();
+			var itemScheduleCost = $(this).children(".schedule_cost").text();
+			var itemScheduleDate = $(this).children(".schedule_date_nodisplay").text();	
+
+			$(".itemScheduleTime").html(itemScheduleTime);
+			$(".itemScheduleCost").html(itemScheduleCost);
+			$(".itemScheduleDate").html(itemScheduleDate);
+
+			$(".modalWindow").fadeIn("slow");
+			$('html, body').animate({
+		        scrollTop: $(".mainLogo").offset().top
+		    }, 1000);
+		    	
+		}
+	});
+	
+
 });
 
       	 
