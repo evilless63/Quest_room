@@ -59,26 +59,25 @@ $(document).ready(function(){
 		    	
 		}
 	});
+	
 
-	$("#itemScheduleFormSubmit").submit(function(){
-	    event.preventDefault();
-		var gameDate = $(".itemScheduleDate").text();
-		var gameTime = $(".itemScheduleTime").text();
-		var gameCost = $(".itemScheduleCost").text();
-		var gameName = $("#itemScheduleFormName").val();
-		var gameSurname = $("#itemScheduleFormSurname").var();
-		var gameEmail = $("#itemScheduleFormEmail").var();
+	$("#itemScheduleFormSubmit").click(function(){
+		var date = $("#itemScheduleDate").text();
+		var time = $(".itemScheduleTime").text();
+		var cost = $(".itemScheduleCost").text();
+		var name = $("#itemScheduleFormName").val();
+		var surname = $("#itemScheduleFormSurname").val();
+		var phone = $("#itemScheduleFormPhone").val();
+		var questName = $("#itemScheduleFormQuest").val();
 
-		var DataString = 'gameDate=' + gameDate + '&gameTime=' + gameTime + '&gameCost=' + gameCost + '&gameName=' + gameName + '&gameSurname=' + gameSurname + '&gameEmail=' + gameEmail;
-		
-		$.ajax({
-			type: "POST",
-			url: "../../schedule_mail.php",
-			data: DataString,
-			success: function(){
-				alert("Заявка успешно отправлена");
-			}	
-		});	
+	    $.ajax({
+          type: "POST",
+          url: "../../schedule_mail.php",
+          data: { date: date, time: time, cost: cost, name: name, surname: surname, phone: phone, questName: questName }
+        }).done(function() {
+          alert( "Заявка успешно отправлена");
+          location.reload();
+        });
 	});
 	
 

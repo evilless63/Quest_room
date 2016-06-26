@@ -68,22 +68,21 @@ footer {
       text-align: center;
       font-weight: 300;
       text-transform: uppercase;
-      width: 320px;
       display: inline-block; }
     .quest_description_wrapper .quest_description .quest_descriptionHeader:after {
       content: url(../images/right_flag_bullet.png);
       position: absolute;
       width: 40px;
       height: 39px;
-      right: 13px;
-      top: -3px; }
+      right: -30px;
+      top: -7px; }
     .quest_description_wrapper .quest_description .quest_descriptionHeader:before {
       content: url(../images/left_flag_bullet.png);
       position: absolute;
       width: 40px;
       height: 39px;
-      left: 13px;
-      top: -3px; }
+      left: -10px;
+      top: -7px; }
     .quest_description_wrapper .quest_description .quest_description_paragraph {
       font-family: MyriadProRegular;
       font-size: 18.9px;
@@ -102,22 +101,21 @@ footer {
     text-align: center;
     font-weight: 300;
     text-transform: uppercase;
-    width: 290px;
     display: inline-block; }
   .schedule_wpapper .schedule_wpapper_header:after {
     content: url(../images/right_flag_bullet.png);
     position: absolute;
     width: 40px;
     height: 39px;
-    right: 13px;
-    top: -3px; }
+    right: -30px;
+    top: -7px; }
   .schedule_wpapper .schedule_wpapper_header:before {
     content: url(../images/left_flag_bullet.png);
     position: absolute;
     width: 40px;
     height: 39px;
-    left: 13px;
-    top: -3px; }
+    left: -10px;
+    top: -7px; }
   .schedule_wpapper .schedule_wpapper_desc {
     font-size: 18.33px;
     font-family: MyriadProRegular;
@@ -206,22 +204,21 @@ footer {
     text-align: center;
     font-weight: 300;
     text-transform: uppercase;
-    width: 390px;
     display: inline-block; }
   .quest_statistics .quest_statistics_header:after {
     content: url(../images/right_flag_bullet.png);
     position: absolute;
     width: 40px;
     height: 39px;
-    right: 13px;
-    top: -3px; }
+    right: -30px;
+    top: -7px; }
   .quest_statistics .quest_statistics_header:before {
     content: url(../images/left_flag_bullet.png);
     position: absolute;
     width: 40px;
     height: 39px;
-    left: 13px;
-    top: -3px; }
+    left: -10px;
+    top: -7px; }
   .quest_statistics .quest_statistics_body {
     width: 979px;
     height: 606px;
@@ -229,12 +226,15 @@ footer {
     margin-top: 28px; }
     .quest_statistics .quest_statistics_body .quest_statistics_body_block {
       display: flex;
-      justify-content: space-around;
+      justify-content: space-between;
       font-family: tahoma;
       font-size: 15.67px;
       color: #fff;
       padding: 18px 0px 22px 0px;
       border-bottom: 1px solid rgba(255, 255, 255, 0.3); }
+      .quest_statistics .quest_statistics_body .quest_statistics_body_block span {
+        display: block;
+        width: 25%; }
   .quest_statistics div.quest_statistics_body div:nth-child(1) {
     padding: 22px 0px 12px 0px; }
 
@@ -249,22 +249,21 @@ footer {
     text-align: center;
     font-weight: 300;
     text-transform: uppercase;
-    width: 210px;
     display: inline-block; }
   .quest_feedback .quest_feedback_header:after {
     content: url(../images/right_flag_bullet.png);
     position: absolute;
     width: 40px;
     height: 39px;
-    right: 13px;
-    top: -3px; }
+    right: -30px;
+    top: -7px; }
   .quest_feedback .quest_feedback_header:before {
     content: url(../images/left_flag_bullet.png);
     position: absolute;
     width: 40px;
     height: 39px;
-    left: 13px;
-    top: -3px; }
+    left: -10px;
+    top: -7px; }
   .quest_feedback div:nth-child(2) {
     margin-top: 30px; }
   .quest_feedback .quest_feedback_block {
@@ -348,3 +347,38 @@ footer {
       display: block;
       margin: 15px auto 25px auto;
       height: 100px; }
+
+.schedule_wpapper_date_block {
+    text-align: center;
+    font-family: MyriadProRegular;
+    font-size: 13px;
+    color: rgba(255, 255, 255, 0.7);
+    border-right: solid 1px rgba(255, 255, 255, 0.3);
+    padding: 2px 0 2px 0px;
+    border-bottom: solid 1px;
+}
+
+.schedule_wpapper_column_block_active {
+    cursor: pointer;
+}
+
+.schedule_wpapper_column_block {
+      
+      text-align: center;
+      font-size: 16px;
+      color: rgba(255, 255, 255, 0.7);
+      border-right: solid 1px rgba(255, 255, 255, 0.3);
+      border-bottom: solid 1px rgba(255, 255, 255, 0.3);
+      padding: 8px 0 4px 0px;
+}
+
+.schedule_cost {
+    display: block;
+    font-size: 13px;
+    padding: 4px 0 4px 0px;
+}
+
+.not_active  {
+      color: rgba(255, 255, 255, 0.15);
+}
+    

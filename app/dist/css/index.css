@@ -188,21 +188,20 @@ section.questChoise.container > div:nth-child(2) {
     text-align: center;
     font-weight: 300;
     text-transform: uppercase;
-    width: 200px;
     display: inline-block; }
   .actions .actionsHeader:before {
     content: url(../images/left_flag_bullet.png);
     position: absolute;
     width: 40px;
     height: 39px;
-    left: 13px;
+    left: -10px;
     top: -3px; }
   .actions .actionsHeader:after {
     content: url(../images/right_flag_bullet.png);
     position: absolute;
     width: 40px;
     height: 39px;
-    right: 13px;
+    right: -30px;
     top: -3px; }
   .actions .actionContainer {
     width: 1080px;
@@ -285,7 +284,6 @@ section.questChoise.container > div:nth-child(2) {
     text-align: center;
     font-weight: 300;
     text-transform: uppercase;
-    width: 220px;
     display: inline-block;
     margin-bottom: 0px; }
   .reviews .reviewsHeader:after {
@@ -293,14 +291,14 @@ section.questChoise.container > div:nth-child(2) {
     position: absolute;
     width: 40px;
     height: 39px;
-    right: 13px;
+    right: -30px;
     top: -3px; }
   .reviews .reviewsHeader:before {
     content: url(../images/left_flag_bullet.png);
     position: absolute;
     width: 40px;
     height: 39px;
-    left: 13px;
+    left: -10px;
     top: -3px; }
   .reviews .addReview {
     display: block;
@@ -395,21 +393,20 @@ section.questChoise.container > div:nth-child(2) {
     text-align: center;
     font-weight: 300;
     text-transform: uppercase;
-    width: 235px;
     display: inline-block; }
   .ourTeam .ourTeamHeader:after {
     content: url(../images/right_flag_bullet.png);
     position: absolute;
     width: 40px;
     height: 39px;
-    right: 13px;
+    right: -30px;
     top: -3px; }
   .ourTeam .ourTeamHeader:before {
     content: url(../images/left_flag_bullet.png);
     position: absolute;
     width: 40px;
     height: 39px;
-    left: 13px;
+    left: -10px;
     top: -3px; }
   .ourTeam .ourTeamContainer_page {
     justify-content: center; }
@@ -506,21 +503,20 @@ section.questChoise.container > div:nth-child(2) {
     text-align: center;
     font-weight: 300;
     text-transform: uppercase;
-    width: 250px;
     display: inline-block; }
   .contacts .contactsHeader:after, .contacts_page .contactsHeader:after {
     content: url(../images/right_flag_bullet.png);
     position: absolute;
     width: 40px;
     height: 39px;
-    right: 13px;
+    right: -30px;
     top: -3px; }
   .contacts .contactsHeader:before, .contacts_page .contactsHeader:before {
     content: url(../images/left_flag_bullet.png);
     position: absolute;
     width: 40px;
     height: 39px;
-    left: 13px;
+    left: -10px;
     top: -3px; }
   .contacts .contactsSubHeader, .contacts_page .contactsSubHeader {
     font-family: MyriadProRegular;
@@ -925,3 +921,49 @@ input[type="checkbox"]:checked + label.itemScheduleFormLabel span {
 
 input[type="checkbox"] {
   display: none; }
+
+h1 {
+  display: block;
+  padding: 0px 10px 0px 30px !important;
+  position: relative; }
+
+h2 {
+  display: block;
+  padding: 0px 10px 0px 30px !important;
+  position: relative; }
+
+h3 {
+  display: block;
+  padding: 0px 10px 0px 30px !important;
+  position: relative; }
+
+h4 {
+  display: block;
+  padding: 0px 10px 0px 30px !important;
+  position: relative; }  
+
+
+.form_add {
+  display: none;
+  position: absolute;
+  left: 20%;
+  top: 20%;
+  background: #580a0a;
+  padding: 20px;
+  color: #fff;
+  z-index: 1000;
+}
+
+input.add_name, input.add_surname, input.add_phone {
+  padding: 10px;
+}
+
+.add_date_modal, .add_time_modal {
+    padding: 10px;
+  }
+
+.add_button_base {
+  margin: 10px 20px;
+  color: #000;
+  background: #fff;
+}  

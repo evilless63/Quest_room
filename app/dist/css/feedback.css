@@ -9,21 +9,20 @@
     text-align: center;
     font-weight: 300;
     text-transform: uppercase;
-    width: 210px;
     display: inline-block; }
   .page_feedback .page_feedback_header:after {
     content: url(../images/right_flag_bullet.png);
     position: absolute;
     width: 40px;
     height: 39px;
-    right: 13px;
+    right: -30px;
     top: -3px; }
   .page_feedback .page_feedback_header:before {
     content: url(../images/left_flag_bullet.png);
     position: absolute;
     width: 40px;
     height: 39px;
-    left: 13px;
+    left: -10px;
     top: -3px; }
   .page_feedback div:nth-child(2) {
     margin-top: 30px; }
